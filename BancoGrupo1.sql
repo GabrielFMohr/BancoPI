@@ -459,3 +459,16 @@ Select count(*) from Atividades;
 Select count(*) from servicos_consumidos;
 Select count(*) from hospedagens_quartos;
 Select count(*) from ATIVIDADES_HOSPEDE;
+
+/*Select ALL*/
+
+select * from Funcionarios;
+select * from Usuarios;
+select * from Atividades;
+select * from Hospedes;
+select * from Atividades_hospede;
+select * from servicos_consumidos;
+select * from servicos;
+select * from Hospedagens;
+select * from Hospedagens_quartos;
+select * from Quartos;
