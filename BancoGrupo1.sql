@@ -473,6 +473,7 @@ select * from Hospedagens;
 select * from Hospedagens_quartos;
 select * from Quartos;
 
+<<<<<<< Updated upstream
 /*Update Servicos*/
 update Servicos
 set preco_servico= 250, nome_servicos='aula de boxe'
@@ -505,3 +506,8 @@ set preco_servico= 250, nome_servicos='bugy'
 where id_servico=20;
 
 
+=======
+/*Select Join*/
+
+SELECT * FROM funcionarios INNER JOIN usuarios ON funcionarios.funcionario_id = usuarios.id_funcionario;
+>>>>>>> Stashed changes
