@@ -14,9 +14,6 @@ CREATE TABLE 'USUARIOS' IF NOT EXISTS (
   `login` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`id_usuario`))
 
-<<<<<<< Updated upstream
-;
-=======
 insert into USUARIOS ( senha, nivel_de_acesso, login)
 values ("M@iones3", 0,"MAZDARX7" ),
 ("M@Peido", 0,"Cralos Ícaro" ),
