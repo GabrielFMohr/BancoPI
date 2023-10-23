@@ -235,3 +235,26 @@ insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, e
 insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email) values ('Had', 'Babar', '13-08-2015', 26918828156, 'Russia', 'Male', 'hbabarh@addtoany.com');
 insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email) values ('Amanda', 'Harbach', '08-10-1979', 70071628332, 'United States', 'Female', 'aharbachi@google.fr');
 insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email) values ('Lurlene', 'Crampsy', '08-01-1966', 48039871227, 'Bosnia and Herzegovina', 'Female', 'lcrampsyj@tiny.cc');
+
+/*Tabela funcionarios*/
+
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Gerry', 'Delucia', 'Staff Accountant II', '$9526.14');
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Editha', 'Stede', 'Account Executive', '$9016.38');
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Agosto', 'Franchyonok', 'Computer Systems Analyst III', '$7291.94');
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Giselbert', 'Duthy', 'Project Manager', '$5890.71');
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('L;urette', 'Smalridge', 'Data Coordinator', '$6530.11');
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Kym', 'Wakerley', 'Recruiter', '$1477.57');
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Aymer', 'Tunbridge', 'Human Resources Manager', '$5917.57');
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Lindie', 'Kaygill', 'Paralegal', '$8184.42');
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Suzi', 'Rickarsey', 'Automation Specialist IV', '$4905.58');
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Jonell', 'Devine', 'Senior Editor', '$2276.33');
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Mae', 'McNess', 'Marketing Assistant', '$9164.21');
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Moishe', 'McCrea', 'Senior Sales Associate', '$6212.93');
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Winny', 'Butterworth', 'Payment Adjustment Coordinator', '$2643.54');
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Wynn', 'MacAllester', 'Chief Design Engineer', '$9734.61');
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Charmaine', 'Chilcott', 'Teacher', '$3291.06');
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Hortense', 'Dwyr', 'Structural Analysis Engineer', '$7856.25');
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Chadwick', 'Ewen', 'Research Assistant I', '$7086.47');
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Tally', 'Liffe', 'Programmer Analyst I', '$5948.04');
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Letisha', 'Huggon', 'Accounting Assistant III', '$9692.93');
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Mose', 'Jozwicki', 'Administrative Officer', '$2530.39');
