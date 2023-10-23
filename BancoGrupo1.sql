@@ -14,7 +14,35 @@ CREATE TABLE 'USUARIOS' IF NOT EXISTS (
   `login` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`id_usuario`))
 
+<<<<<<< Updated upstream
 ;
+=======
+insert into USUARIOS ( senha, nivel_de_acesso, login)
+values ("M@iones3", 0,"MAZDARX7" ),
+("M@Peido", 0,"Cralos Ícaro" ),
+("Geromel", 1,"Andrei" ),
+("macaco", 0,"MicoMeu" ),
+("blaze", 1,"FelipeNeto" ),
+("Azul", 1,"Smurfette" ),
+("Gorro", 1,"PapaSmurf" ),
+("Azar", 0,"Desastrado" ),
+("Bobo", 1,"Joca" ),
+("Forte", 0,"Robusto" ),
+("Ruiva", 1," Sassette" ),
+("Burro", 1,"Gênio" ),
+("Feliz", 0,"Ranzinza" ),
+("Horrível", 1,"Habilidoso" ),
+("Bonitão", 0,"Vaidoso" ),
+("Véio", 0,"VovôSmurf" ),
+("Bonzinho", 1,"DevilSmurf" ),
+("Bom", 0,"Tuffy" ),
+("Rastreio", 1,"Caçador" ),
+("Véia", 1,"VovóSmurf" ),
+("AgroBoy", 1,"Fazendeiro" ),
+("Pedreiro", 1,"TimberSmurf" ),
+("BadBoy", 0,"AngelSmurf" ),
+("Woolly", 1,"WoolySmurf" );
+>>>>>>> Stashed changes
 
 
 -- -----------------------------------------------------
@@ -258,3 +286,26 @@ insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Chadwick', 
 insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Tally', 'Liffe', 'Programmer Analyst I', '$5948.04');
 insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Letisha', 'Huggon', 'Accounting Assistant III', '$9692.93');
 insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Mose', 'Jozwicki', 'Administrative Officer', '$2530.39');
+
+/*Tabela Quartos*/
+
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (27, 1, 'Casal', 1, 0, 1, 0, 927.53);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (43, 0, 'Casal', 0, 0, 0, 1, 387.28);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (28, 0, 'Casal', 1, 0, 0, 1, 733.04);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (44, 0, 'Casal', 0, 1, 0, 0, 1593.7);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (41, 1, 'Casal', 0, 0, 0, 1, 576.8);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (29, 0, 'Casal', 1, 1, 0, 1, 773.33);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (15, 1, 'Casal', 0, 0, 1, 1, 1478.15);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (15, 1, 'Casal', 0, 1, 1, 0, 765.21);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (21, 1, 'Casal', 1, 0, 0, 0, 735.41);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (21, 0, 'Casal', 1, 1, 1, 1, 508.69);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (33, 1, 'Solteiro', 1, 1, 1, 0, 1963.8);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (22, 0, 'Solteiro', 0, 0, 0, 1, 1298.17);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (41, 0, 'Solteiro', 0, 0, 0, 1, 1673.81);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (30, 1, 'Solteiro', 0, 0, 1, 1, 633.46);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (39, 1, 'Solteiro', 0, 0, 1, 1, 449.5);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (17, 0, 'Solteiro', 0, 0, 0, 1, 1547.8);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (42, 1, 'Solteiro', 0, 1, 0, 1, 459.85);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (17, 0, 'Solteiro', 1, 0, 0, 0, 1102.29);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (27, 0, 'Solteiro', 0, 0, 0, 1, 1484.32);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (47, 0, 'Solteiro', 0, 0, 0, 1, 1907.04);
