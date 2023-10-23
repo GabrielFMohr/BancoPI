@@ -472,3 +472,36 @@ select * from servicos;
 select * from Hospedagens;
 select * from Hospedagens_quartos;
 select * from Quartos;
+
+/*Update Servicos*/
+update Servicos
+set preco_servico= 250, nome_servicos='aula de boxe'
+where id_servico=1;
+update Servicos
+set preco_servico= 10, nome_servicos='prato do dia'
+where id_servico=11;
+update Servicos
+set preco_servico= 157.09, nome_servicos='aula de capoeira'
+where id_servico=7;
+update Servicos
+set preco_servico= 243.11, nome_servicos='aula de futebol'
+where id_servico=12;
+update Servicos
+set preco_servico= 143.33, nome_servicos='pôker'
+where id_servico=18;
+update Servicos
+set preco_servico= 111.11, nome_servicos='aula de karatê'
+where id_servico=5;
+update Servicos
+set preco_servico= 250, nome_servicos='aula de kickbox'
+where id_servico=9;
+update Servicos
+set preco_servico= 250, nome_servicos='piscina'
+where id_servico=7;
+set preco_servico= 132, nome_servicos='sauna'
+where id_servico=19;
+update Servicos
+set preco_servico= 250, nome_servicos='bugy'
+where id_servico=20;
+
+
