@@ -355,3 +355,26 @@ insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, d
 insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('7:09 AM', '1:52 AM', 18, 'Andalax', '23/05/2022');
 insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('11:07 AM', '9:40 AM', 17, 'Zathin', '01/11/2022');
 insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('11:36 AM', '1:20 AM', 16, 'Regrant', '17/08/2022');
+
+/*Tabela Servicos*/
+/*Tabela Servicos*/
+insert into Servicos (preco_servicos, nome_servicos) values (249.96, 'Massagemn');
+insert into Servicos (preco_servicos, nome_servicos) values (260.5, 'Frigobar');
+insert into Servicos (preco_servicos, nome_servicos) values (129.43, 'Máquina de venda');
+insert into Servicos (preco_servicos, nome_servicos) values (93.83, 'Café da manhã');
+insert into Servicos (preco_servicos, nome_servicos) values (89.98, 'Sala de jogos');
+insert into Servicos (preco_servicos, nome_servicos) values (108.29, 'Internet');
+insert into Servicos (preco_servicos, nome_servicos) values (117.71, 'TV a cabo');
+insert into Servicos (preco_servicos, nome_servicos) values (257.47, 'Aluguel de filmes');
+insert into Servicos (preco_servicos, nome_servicos) values (47.94, 'Ar condicionado');
+insert into Servicos (preco_servicos, nome_servicos) values (110.91, 'Kart');
+insert into Servicos (preco_servicos, nome_servicos) values (57.17, 'Aula de surf');
+insert into Servicos (preco_servicos, nome_servicos) values (56.23, 'Aula de hipismo');
+insert into Servicos (preco_servicos, nome_servicos) values (18.3, 'Academia');
+insert into Servicos (preco_servicos, nome_servicos) values (296.42, 'Festa Pagode');
+insert into Servicos (preco_servicos, nome_servicos) values (189.84, 'Bailão');
+insert into Servicos (preco_servicos, nome_servicos) values (246.18, 'Quiroprata');
+insert into Servicos (preco_servicos, nome_servicos) values (252.25, 'Sauna');
+insert into Servicos (preco_servicos, nome_servicos) values (229.48, 'Babás');
+insert into Servicos (preco_servicos, nome_servicos) values (184.17, 'Lavanderia');
+insert into Servicos (preco_servicos, nome_servicos) values (275.8, 'Aula de dança do ventre');
