@@ -243,26 +243,26 @@ values ("M@iones3", 0,"MAZDARX7" ),
 ("Woolly", 1,"WoolySmurf" );
  
  /*Tabela Hóspedes*/
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email) values ('Stacee', 'Glisenan', '01-09-1986', 60733218277, 'Uganda', 'Genderfluid', 'sglisenan0@mail.ru');
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email) values ('Elisa', 'Volette', '06-11-1984', 75142501376, 'Peru', 'Female', 'evolette1@stanford.edu');
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email) values ('Maxwell', 'Haycraft', '16-02-1977', 31614968640, 'Brazil', 'Male', 'mhaycraft2@wikispaces.com');
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email) values ('Gussy', 'Fries', '26-10-2003', 39541520114, 'China', 'Female', 'gfries3@stumbleupon.com');
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email) values ('Duff', 'Mungham', '21-09-2023', 80509776425, 'Philippines', 'Male', 'dmungham4@histats.com');
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email) values ('Kristo', 'Honnan', '21-02-2019', 63601549306, 'Mongolia', 'Male', 'khonnan5@ovh.net');
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email) values ('Teodoor', 'Skeels', '23-05-2008', 42138161925, 'Sweden', 'Male', 'tskeels6@themeforest.net');
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email) values ('Malachi', 'Barnewille', '14-04-1999', 42755982555, 'France', 'Male', 'mbarnewille7@newyorker.com');
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email) values ('Wallis', 'Bree', '15-12-1990', 63606874913, 'Norway', 'Female', 'wbree8@instagram.com');
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email) values ('Marius', 'Bratton', '31-10-1994', 29858326213, 'Brazil', 'Male', 'mbratton9@mashable.com');
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email) values ('Obadiah', 'Aylesbury', '14-04-2017', 12934643418, 'China', 'Male', 'oaylesburya@europa.eu');
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email) values ('Wright', 'Alkin', '19-09-1980', 94973566802, 'Yemen', 'Male', 'walkinb@surveymonkey.com');
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email) values ('Rikki', 'Youson', '10-06-1994', 83340713218, 'Thailand', 'Male', 'ryousonc@vk.com');
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email) values ('Benedicto', 'Hodgin', '16-12-1970', 19839714567, 'Iran', 'Male', 'bhodgind@photobucket.com');
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email) values ('Lennie', 'Lembrick', '23-06-1975', 88247607206, 'Pakistan', 'Male', 'llembricke@un.org');
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email) values ('Eachelle', 'Gonoude', '26-09-1998', 68586216347, 'China', 'Female', 'egonoudef@is.gd');
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email) values ('Freddie', 'Millott', '22-06-2012', 36367897999, 'Greece', 'Female', 'fmillottg@xing.com');
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email) values ('Had', 'Babar', '13-08-2015', 26918828156, 'Russia', 'Male', 'hbabarh@addtoany.com');
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email) values ('Amanda', 'Harbach', '08-10-1979', 70071628332, 'United States', 'Female', 'aharbachi@google.fr');
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email) values ('Lurlene', 'Crampsy', '08-01-1966', 48039871227, 'Bosnia and Herzegovina', 'Female', 'lcrampsyj@tiny.cc');
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Stacee', 'Glisenan', '01-09-1986', 60733218277, 'Uganda', 'Genderfluid', 'sglisenan0@mail.ru',1);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Elisa', 'Volette', '06-11-1984', 75142501376, 'Peru', 'Female', 'evolette1@stanford.edu',2);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Maxwell', 'Haycraft', '16-02-1977', 31614968640, 'Brazil', 'Male', 'mhaycraft2@wikispaces.com',3);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Gussy', 'Fries', '26-10-2003', 39541520114, 'China', 'Female', 'gfries3@stumbleupon.com',4);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Duff', 'Mungham', '21-09-2023', 80509776425, 'Philippines', 'Male', 'dmungham4@histats.com',5);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Kristo', 'Honnan', '21-02-2019', 63601549306, 'Mongolia', 'Male', 'khonnan5@ovh.net',6);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Teodoor', 'Skeels', '23-05-2008', 42138161925, 'Sweden', 'Male', 'tskeels6@themeforest.net',7);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Malachi', 'Barnewille', '14-04-1999', 42755982555, 'France', 'Male', 'mbarnewille7@newyorker.com',8);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Wallis', 'Bree', '15-12-1990', 63606874913, 'Norway', 'Female', 'wbree8@instagram.com',9);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Marius', 'Bratton', '31-10-1994', 29858326213, 'Brazil', 'Male', 'mbratton9@mashable.com',10);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Obadiah', 'Aylesbury', '14-04-2017', 12934643418, 'China', 'Male', 'oaylesburya@europa.eu',11);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Wright', 'Alkin', '19-09-1980', 94973566802, 'Yemen', 'Male', 'walkinb@surveymonkey.com',12);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Rikki', 'Youson', '10-06-1994', 83340713218, 'Thailand', 'Male', 'ryousonc@vk.com',13);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Benedicto', 'Hodgin', '16-12-1970', 19839714567, 'Iran', 'Male', 'bhodgind@photobucket.com',14);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Lennie', 'Lembrick', '23-06-1975', 88247607206, 'Pakistan', 'Male', 'llembricke@un.org',15);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Eachelle', 'Gonoude', '26-09-1998', 68586216347, 'China', 'Female', 'egonoudef@is.gd',16);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Freddie', 'Millott', '22-06-2012', 36367897999, 'Greece', 'Female', 'fmillottg@xing.com',17);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Had', 'Babar', '13-08-2015', 26918828156, 'Russia', 'Male', 'hbabarh@addtoany.com',18);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Amanda', 'Harbach', '08-10-1979', 70071628332, 'United States', 'Female', 'aharbachi@google.fr',19);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Lurlene', 'Crampsy', '08-01-1966', 48039871227, 'Bosnia and Herzegovina', 'Female', 'lcrampsyj@tiny.cc',20);
 
 /*Tabela funcionarios*/
 
@@ -309,3 +309,118 @@ insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condiciona
 insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (17, 0, 'Solteiro', 1, 0, 0, 0, 1102.29);
 insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (27, 0, 'Solteiro', 0, 0, 0, 1, 1484.32);
 insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (47, 0, 'Solteiro', 0, 0, 0, 1, 1907.04);
+
+/*Tabela hospedagens*/
+
+insert into Hospedagens (checkin, checkout) values ('7/28/2023', '10/29/2023');
+insert into Hospedagens (checkin, checkout) values ('11/29/2022', '5/27/2023');
+insert into Hospedagens (checkin, checkout) values ('8/8/2023', '6/28/2023');
+insert into Hospedagens (checkin, checkout) values ('6/4/2022', '4/23/2023');
+insert into Hospedagens (checkin, checkout) values ('6/30/2023', '11/18/2023');
+insert into Hospedagens (checkin, checkout) values ('11/6/2022', '6/1/2023');
+insert into Hospedagens (checkin, checkout) values ('6/21/2023', '4/8/2023');
+insert into Hospedagens (checkin, checkout) values ('4/30/2023', '9/11/2023');
+insert into Hospedagens (checkin, checkout) values ('6/8/2022', '8/28/2023');
+insert into Hospedagens (checkin, checkout) values ('10/3/2023', '6/29/2023');
+insert into Hospedagens (checkin, checkout) values ('2/24/2022', '5/10/2023');
+insert into Hospedagens (checkin, checkout) values ('1/8/2023', '6/21/2023');
+insert into Hospedagens (checkin, checkout) values ('12/23/2022', '12/28/2022');
+insert into Hospedagens (checkin, checkout) values ('5/7/2023', '9/7/2023');
+insert into Hospedagens (checkin, checkout) values ('2/28/2023', '12/24/2022');
+insert into Hospedagens (checkin, checkout) values ('9/15/2022', '1/22/2023');
+insert into Hospedagens (checkin, checkout) values ('12/14/2022', '6/10/2023');
+insert into Hospedagens (checkin, checkout) values ('6/3/2022', '3/24/2023');
+insert into Hospedagens (checkin, checkout) values ('5/31/2022', '5/11/2023');
+insert into Hospedagens (checkin, checkout) values ('7/2/2022', '5/30/2023');
+
+/*Tabela Atividades */
+
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('8:08 AM', '10:05 AM', 9, 'Lotlux', '02/09/2023');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('9:10 AM', '4:55 AM', 4, 'Voyatouch', '27/07/2022');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('10:57 AM', '11:59 AM', 12, 'Y-find', '23/09/2022');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('11:20 AM', '12:56 AM', 4, 'Domainer', '01/10/2023');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('6:41 AM', '10:00 AM', 15, 'Zathin', '07/12/2023');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('9:40 AM', '10:27 AM', 7, 'Kanlam', '27/10/2022');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('10:03 AM', '4:06 AM', 15, 'Daltfresh', '20/12/2023');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('11:15 AM', '6:37 AM', 10, 'Y-find', '13/08/2022');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('8:17 AM', '2:32 AM', 11, 'Lotstring', '19/01/2023');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('9:55 AM', '11:47 AM', 12, 'Stim', '09/08/2022');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('11:12 AM', '1:06 AM', 4, 'Stringtough', '21/09/2023');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('10:03 AM', '1:37 AM', 14, 'It', '06/02/2022');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('11:08 AM', '2:46 AM', 15, 'Y-find', '28/06/2023');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('10:40 AM', '8:08 AM', 8, 'Opela', '29/11/2022');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('7:45 AM', '6:54 AM', 13, 'Lotlux', '18/01/2023');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('9:24 AM', '9:55 AM', 14, 'Lotlux', '06/02/2023');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('10:31 AM', '5:12 AM', 6, 'Stim', '27/11/2022');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('7:09 AM', '1:52 AM', 18, 'Andalax', '23/05/2022');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('11:07 AM', '9:40 AM', 17, 'Zathin', '01/11/2022');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('11:36 AM', '1:20 AM', 16, 'Regrant', '17/08/2022');
+
+/*Tabela Servicos*/
+insert into Servicos (preco_servicos, nome_servicos) values (249.96, 'Massagemn');
+insert into Servicos (preco_servicos, nome_servicos) values (260.5, 'Frigobar');
+insert into Servicos (preco_servicos, nome_servicos) values (129.43, 'Máquina de venda');
+insert into Servicos (preco_servicos, nome_servicos) values (93.83, 'Café da manhã');
+insert into Servicos (preco_servicos, nome_servicos) values (89.98, 'Sala de jogos');
+insert into Servicos (preco_servicos, nome_servicos) values (108.29, 'Internet');
+insert into Servicos (preco_servicos, nome_servicos) values (117.71, 'TV a cabo');
+insert into Servicos (preco_servicos, nome_servicos) values (257.47, 'Aluguel de filmes');
+insert into Servicos (preco_servicos, nome_servicos) values (47.94, 'Ar condicionado');
+insert into Servicos (preco_servicos, nome_servicos) values (110.91, 'Kart');
+insert into Servicos (preco_servicos, nome_servicos) values (57.17, 'Aula de surf');
+insert into Servicos (preco_servicos, nome_servicos) values (56.23, 'Aula de hipismo');
+insert into Servicos (preco_servicos, nome_servicos) values (18.3, 'Academia');
+insert into Servicos (preco_servicos, nome_servicos) values (296.42, 'Festa Pagode');
+insert into Servicos (preco_servicos, nome_servicos) values (189.84, 'Bailão');
+insert into Servicos (preco_servicos, nome_servicos) values (246.18, 'Quiroprata');
+insert into Servicos (preco_servicos, nome_servicos) values (252.25, 'Sauna');
+insert into Servicos (preco_servicos, nome_servicos) values (229.48, 'Babás');
+insert into Servicos (preco_servicos, nome_servicos) values (184.17, 'Lavanderia');
+insert into Servicos (preco_servicos, nome_servicos) values (275.8, 'Aula de dança do ventre');
+
+/*Tabela Atividades_hospede*/
+insert int Atividades_hospede(Hospede_id, id_usuario)
+values (1,1),
+(2,2),
+(3,3),
+(4,4),
+(5,5),
+(6,6),
+(7,7),
+(8,8),
+(9,9),
+(10,10),
+(11,11),
+(12,12),
+(13,13),
+(14,14),
+(15,15),
+(16,16),
+(17,17),
+(18,18),
+(19,19),
+(20,20);
+
+/*Tabela serviços consumidos*/
+
+insert into servicos_consumidos (id_hospede, id_servico, id_hospedagens)
+values(1,1,1),
+(2,2,2),
+(3,3,3),
+(4,4,4),
+(5,5,5),
+(6,6,6),
+(7,7,7),
+(8,8,8),
+(9,9,9),
+(10,10,10),
+(11,11,11),
+(12,12,12),
+(13,13,13),
+(14,14,14),
+(15,15,15),
+(16,16,16),
+(17,17,17),
+(18,18,18),
+(19,19,19),
+(20,20,20);
