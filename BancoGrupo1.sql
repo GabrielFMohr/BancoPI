@@ -1,5 +1,6 @@
 -- MySQL Workbench Forward Engineering
 
+DROP DATABASE IF EXISTS;
 
 CREATE database IF NOT EXISTS `mydb` ;
 USE `mydb` ;
