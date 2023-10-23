@@ -446,3 +446,16 @@ values(1,1,1),
 (18,18,18),
 (19,19,19),
 (20,20,20);
+
+/*Selects*/
+
+Select count(*) from Usuarios;
+Select count(*) from Hospedes;
+Select count(*) from Servicos;
+Select count(*) from Hospedagens;
+Select count(*) from Quartos;
+Select count(*) from Funcionarios;
+Select count(*) from Atividades;
+Select count(*) from servicos_consumidos;
+Select count(*) from hospedagens_quartos;
+Select count(*) from ATIVIDADES_HOSPEDE;
