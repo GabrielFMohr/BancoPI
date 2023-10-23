@@ -357,7 +357,6 @@ insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, d
 insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('11:36 AM', '1:20 AM', 16, 'Regrant', '17/08/2022');
 
 /*Tabela Servicos*/
-/*Tabela Servicos*/
 insert into Servicos (preco_servicos, nome_servicos) values (249.96, 'Massagemn');
 insert into Servicos (preco_servicos, nome_servicos) values (260.5, 'Frigobar');
 insert into Servicos (preco_servicos, nome_servicos) values (129.43, 'Máquina de venda');
@@ -378,3 +377,26 @@ insert into Servicos (preco_servicos, nome_servicos) values (252.25, 'Sauna');
 insert into Servicos (preco_servicos, nome_servicos) values (229.48, 'Babás');
 insert into Servicos (preco_servicos, nome_servicos) values (184.17, 'Lavanderia');
 insert into Servicos (preco_servicos, nome_servicos) values (275.8, 'Aula de dança do ventre');
+
+/*Tabela Atividades_hospede*/
+insert int Atividades_hospede(Hospede_id, id_usuario)
+values (1,1),
+(2,2),
+(3,3),
+(4,4),
+(5,5),
+(6,6),
+(7,7),
+(8,8),
+(9,9),
+(10,10),
+(11,11),
+(12,12),
+(13,13),
+(14,14),
+(15,15),
+(16,16),
+(17,17),
+(18,18),
+(19,19),
+(20,20);
