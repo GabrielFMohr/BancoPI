@@ -1,13 +1,13 @@
 -- MySQL Workbench Forward Engineering
 
-DROP DATABASE IF EXISTS;
+DROP DATABASE IF EXISTS `mydb`;
 
 CREATE database IF NOT EXISTS `mydb` ;
 USE `mydb` ;
 
 -- -----------------------------------------------------
 -- Table -- -----------------------------------------------------
-CREATE TABLE 'USUARIOS' IF NOT EXISTS (
+CREATE TABLE IF NOT EXISTS `USUARIOS`(
   `id_usuario` INT NOT NULL AUTO_INCREMENT,
   `senha` VARCHAR(45) NOT NULL,
   `nivel_de_acesso` INT NOT NULL,
@@ -39,7 +39,6 @@ values ("M@iones3", 0,"MAZDARX7" ),
 ("Pedreiro", 1,"TimberSmurf" ),
 ("BadBoy", 0,"AngelSmurf" ),
 ("Woolly", 1,"WoolySmurf" );
->>>>>>> Stashed changes
 
 
 -- -----------------------------------------------------
@@ -332,28 +331,29 @@ insert into Hospedagens (checkin, checkout) values ('7/2/2022', '5/30/2023');
 
 /*Tabela Atividades */
 
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('8:08 AM', '10:05 AM', 9, 'Lotlux', '02/09/2023');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('9:10 AM', '4:55 AM', 4, 'Voyatouch', '27/07/2022');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('10:57 AM', '11:59 AM', 12, 'Y-find', '23/09/2022');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('11:20 AM', '12:56 AM', 4, 'Domainer', '01/10/2023');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('6:41 AM', '10:00 AM', 15, 'Zathin', '07/12/2023');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('9:40 AM', '10:27 AM', 7, 'Kanlam', '27/10/2022');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('10:03 AM', '4:06 AM', 15, 'Daltfresh', '20/12/2023');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('11:15 AM', '6:37 AM', 10, 'Y-find', '13/08/2022');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('8:17 AM', '2:32 AM', 11, 'Lotstring', '19/01/2023');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('9:55 AM', '11:47 AM', 12, 'Stim', '09/08/2022');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('11:12 AM', '1:06 AM', 4, 'Stringtough', '21/09/2023');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('10:03 AM', '1:37 AM', 14, 'It', '06/02/2022');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('11:08 AM', '2:46 AM', 15, 'Y-find', '28/06/2023');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('10:40 AM', '8:08 AM', 8, 'Opela', '29/11/2022');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('7:45 AM', '6:54 AM', 13, 'Lotlux', '18/01/2023');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('9:24 AM', '9:55 AM', 14, 'Lotlux', '06/02/2023');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('10:31 AM', '5:12 AM', 6, 'Stim', '27/11/2022');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('7:09 AM', '1:52 AM', 18, 'Andalax', '23/05/2022');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('11:07 AM', '9:40 AM', 17, 'Zathin', '01/11/2022');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('11:36 AM', '1:20 AM', 16, 'Regrant', '17/08/2022');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('8:08 AM', '10:05 AM', 9, 'Passeio a cavalo com guia', '02/09/2023');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('9:10 AM', '4:55 AM', 4, 'Passeio de buggy', '27/07/2022');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('10:57 AM', '11:59 AM', 12, 'Pesca', '23/09/2022');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('11:20 AM', '12:56 AM', 4, 'Trilha de offroad 4x4', '01/10/2023');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('6:41 AM', '10:00 AM', 15, 'Trilha a pé com guia', '07/12/2023');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('9:40 AM', '10:27 AM', 7, 'Alpinismo', '27/10/2022');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('10:03 AM', '4:06 AM', 15, 'Surf', '20/12/2023');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('11:15 AM', '6:37 AM', 10, 'Natação', '13/08/2022');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('8:17 AM', '2:32 AM', 11, 'Futebol', '19/01/2023');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('9:55 AM', '11:47 AM', 12, 'Vôlei', '09/08/2022');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('11:12 AM', '1:06 AM', 4, 'Hipismo', '21/09/2023');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('10:03 AM', '1:37 AM', 14, 'Luau', '06/02/2022');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('11:08 AM', '2:46 AM', 15, 'Yoga', '28/06/2023');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('10:40 AM', '8:08 AM', 8, 'Oficina de artesanato', '29/11/2022');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('7:45 AM', '6:54 AM', 13, 'Oficina de jardinagem', '18/01/2023');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('9:24 AM', '9:55 AM', 14, 'Caça ao tesouro', '06/02/2023');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('10:31 AM', '5:12 AM', 6, 'Passeio de trator', '27/11/2022');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('7:09 AM', '1:52 AM', 18, 'Visita ao mirante', '23/05/2022');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('11:07 AM', '9:40 AM', 17, 'Teatro ao ar livre', '01/11/2022');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('11:36 AM', '1:20 AM', 16, 'Pratica de cerâmica com guia', '17/08/2022');
 
 /*Tabela Servicos*/
+
 insert into Servicos (preco_servicos, nome_servicos) values (249.96, 'Massagemn');
 insert into Servicos (preco_servicos, nome_servicos) values (260.5, 'Frigobar');
 insert into Servicos (preco_servicos, nome_servicos) values (129.43, 'Máquina de venda');
@@ -376,6 +376,7 @@ insert into Servicos (preco_servicos, nome_servicos) values (184.17, 'Lavanderia
 insert into Servicos (preco_servicos, nome_servicos) values (275.8, 'Aula de dança do ventre');
 
 /*Tabela Atividades_hospede*/
+
 insert int Atividades_hospede(Hospede_id, id_usuario)
 values (1,1),
 (2,2),
@@ -401,6 +402,30 @@ values (1,1),
 /*Tabela serviços consumidos*/
 
 insert into servicos_consumidos (id_hospede, id_servico, id_hospedagens)
+values(1,1,1),
+(2,2,2),
+(3,3,3),
+(4,4,4),
+(5,5,5),
+(6,6,6),
+(7,7,7),
+(8,8,8),
+(9,9,9),
+(10,10,10),
+(11,11,11),
+(12,12,12),
+(13,13,13),
+(14,14,14),
+(15,15,15),
+(16,16,16),
+(17,17,17),
+(18,18,18),
+(19,19,19),
+(20,20,20);
+
+/*Tabela hospedagens_quartos*/
+
+insert into Hospedagens_quartos (id_hospede, id_quartos, id_hospedagens)
 values(1,1,1),
 (2,2,2),
 (3,3,3),
