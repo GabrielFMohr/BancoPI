@@ -16,9 +16,9 @@ CREATE TABLE IF NOT EXISTS `USUARIOS`(
 
 insert into USUARIOS ( senha, nivel_de_acesso, login)
 values ("M@iones3", 0,"MAZDARX7" ),
-("M@Peido", 0,"Cralos Ícaro" ),
+("Mor", 0,"Cralos Ícaro" ),
 ("Geromel", 1,"Andrei" ),
-("macaco", 0,"MicoMeu" ),
+("macaco", 0,"Micu" ),
 ("blaze", 1,"FelipeNeto" ),
 ("Azul", 1,"Smurfette" ),
 ("Gorro", 1,"PapaSmurf" ),
