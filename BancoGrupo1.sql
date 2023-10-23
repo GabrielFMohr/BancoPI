@@ -309,3 +309,26 @@ insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condiciona
 insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (17, 0, 'Solteiro', 1, 0, 0, 0, 1102.29);
 insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (27, 0, 'Solteiro', 0, 0, 0, 1, 1484.32);
 insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (47, 0, 'Solteiro', 0, 0, 0, 1, 1907.04);
+
+/*Tabela hospedagens*/
+
+insert into Hospedagens (checkin, checkout) values ('7/28/2023', '10/29/2023');
+insert into Hospedagens (checkin, checkout) values ('11/29/2022', '5/27/2023');
+insert into Hospedagens (checkin, checkout) values ('8/8/2023', '6/28/2023');
+insert into Hospedagens (checkin, checkout) values ('6/4/2022', '4/23/2023');
+insert into Hospedagens (checkin, checkout) values ('6/30/2023', '11/18/2023');
+insert into Hospedagens (checkin, checkout) values ('11/6/2022', '6/1/2023');
+insert into Hospedagens (checkin, checkout) values ('6/21/2023', '4/8/2023');
+insert into Hospedagens (checkin, checkout) values ('4/30/2023', '9/11/2023');
+insert into Hospedagens (checkin, checkout) values ('6/8/2022', '8/28/2023');
+insert into Hospedagens (checkin, checkout) values ('10/3/2023', '6/29/2023');
+insert into Hospedagens (checkin, checkout) values ('2/24/2022', '5/10/2023');
+insert into Hospedagens (checkin, checkout) values ('1/8/2023', '6/21/2023');
+insert into Hospedagens (checkin, checkout) values ('12/23/2022', '12/28/2022');
+insert into Hospedagens (checkin, checkout) values ('5/7/2023', '9/7/2023');
+insert into Hospedagens (checkin, checkout) values ('2/28/2023', '12/24/2022');
+insert into Hospedagens (checkin, checkout) values ('9/15/2022', '1/22/2023');
+insert into Hospedagens (checkin, checkout) values ('12/14/2022', '6/10/2023');
+insert into Hospedagens (checkin, checkout) values ('6/3/2022', '3/24/2023');
+insert into Hospedagens (checkin, checkout) values ('5/31/2022', '5/11/2023');
+insert into Hospedagens (checkin, checkout) values ('7/2/2022', '5/30/2023');
