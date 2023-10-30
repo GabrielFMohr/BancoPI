@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS `USUARIOS`(
   `senha` VARCHAR(45) NOT NULL,
   `nivel_de_acesso` INT NOT NULL,
   `login` VARCHAR(45) NOT NULL,
-  PRIMARY KEY (`id_usuario`))
+  PRIMARY KEY (`id_usuario`));
 
 insert into USUARIOS ( senha, nivel_de_acesso, login)
 values ("M@iones3", 0,"MAZDARX7" ),
@@ -58,7 +58,7 @@ CREATE TABLE IF NOT EXISTS `HOSPEDES`(
  
   CONSTRAINT `fk_Hospedes_Usuários1`
     FOREIGN KEY (`id_usuario`)
-    REFERENCES (`id_usuario`)
+    REFERENCES `mydb`.`Usuarios`(`id_usuario`)
     )
 ;
 
@@ -115,7 +115,7 @@ CREATE TABLE  IF NOT EXISTS `FUNCIONARIOS` (
   PRIMARY KEY (`funcionario_id`, `id_usuario`),
   CONSTRAINT `fk_Funcionarios_Usuários1`
     FOREIGN KEY (`id_usuario`)
-    REFERENCES (`id_usuario`)
+    REFERENCES `mydb`.`Usuarios`(`id_usuario`)
     )
 ;
 
@@ -473,7 +473,7 @@ select * from Hospedagens;
 select * from Hospedagens_quartos;
 select * from Quartos;
 
-<<<<<<< Updated upstream
+
 /*Update Servicos*/
 update Servicos
 set preco_servico= 250, nome_servicos='aula de boxe'
@@ -538,52 +538,12 @@ update Hospedagens
 set checkin = '10/10/2023', checkout = '15/10/2023'
 where  hospedagens_id = 10;
 
-/*update atividades*/
-
-update Atividades
-set nome_atividade='aula de boxe'
-where id_atividade=1;
-
-update Atividades
-set nome_atividade ='aula de vôlei'
-where id_atividade=11;
-
-update Atividades
-set nome_atividade= 'aula de capoeira'
-where id_atividade=7;
-
-update Atividades
-set nome_atividade='aula de futebol'
-where id_atividade=12;
-
-update Atividades
-set nome_atividade='pôker'
-where id_atividade=18;
-
-update Atividades
-set nome_atividade='aula de karatê'
-where id_atividade=5;
-
-update Atividades
-set nome_atividade='aula de kickbox'
-where id_atividade=9;
-
-update Atividades
-set nome_atividade='piscina'
-where id_atividade=7;
-
-update Atividades
-set nome_atividade='sauna'
-where id_atividade=19;
-
-update Atividades
-set nome_atividade='bugy'
-where id_atividade=20;
 
 
 
-=======
+
+
 /*Select Join*/
 
 SELECT * FROM funcionarios INNER JOIN usuarios ON funcionarios.funcionario_id = usuarios.id_funcionario;
->>>>>>> Stashed changes
+/*>>>>>>> Stashed changes*/
