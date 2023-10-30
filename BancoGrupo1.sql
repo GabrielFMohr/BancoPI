@@ -636,6 +636,13 @@ update Consumo
 set nome_servico='bugy', preco_servico=250
 where id_servicos=20;
 
+<<<<<<< HEAD
+/*Update Quartos*/
+
+update Quartos
+set max_pessoas = , manutencao = , tipo_cama = '', frigobar = , ar_condicionado = , banheira = , tv = , preco_quarto_dia = 
+where id_quartos
+=======
 /*Update Servicos_CONSUMIDOS*/
 update `SERVICOS_CONSUMIDOS`
 set id_hospede= 1,id_servico = 1, id_hospedagens=1
@@ -701,6 +708,7 @@ where id_hospede_atividade=9;
 update Atividades_hospedes
 set  Hospede_id=10, id_atividade=10
 where id_hospede_atividade=10;
+>>>>>>> main
 
 
 
