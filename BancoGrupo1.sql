@@ -44,7 +44,7 @@ values ("M@iones3", 0,"MAZDARX7" ),
 -- -----------------------------------------------------
 -- Table `mydb`.`Hospedes`
 -- -----------------------------------------------------
-CREATE TABLE 'HOSPEDES' IF NOT EXISTS (
+CREATE TABLE IF NOT EXISTS `HOSPEDES`(
   `Hospede_id` INT NOT NULL AUTO_INCREMENT,
   `nome` VARCHAR(45) NOT NULL,
   `sobrenome` VARCHAR(45) NOT NULL,
@@ -66,7 +66,7 @@ CREATE TABLE 'HOSPEDES' IF NOT EXISTS (
 -- -----------------------------------------------------
 -- Table `mydb`.`servicos`
 -- -----------------------------------------------------
-CREATE TABLE 'SERVICOS' IF NOT EXISTS  (
+CREATE TABLE IF NOT EXISTS  `SERVICOS` (
   `id_servicos` INT NOT NULL AUTO_INCREMENT,
   `preco_servico` FLOAT NOT NULL,
   `nome_servico` VARCHAR(45) NOT NULL,
@@ -77,7 +77,7 @@ CREATE TABLE 'SERVICOS' IF NOT EXISTS  (
 -- -----------------------------------------------------
 -- Table `mydb`.`Hospedagens`
 -- -----------------------------------------------------
-CREATE TABLE 'HOSPEDAGENS' IF NOT EXISTS  (
+CREATE TABLE  IF NOT EXISTS `HOSPEDAGENS` (
   `Hospedagens_id` INT NOT NULL AUTO_INCREMENT,
   `chekin` DATE NOT NULL,
   `checkout` DATE NOT NULL,
@@ -88,7 +88,7 @@ CREATE TABLE 'HOSPEDAGENS' IF NOT EXISTS  (
 -- -----------------------------------------------------
 -- Table `mydb`.`Quartos`
 -- -----------------------------------------------------
-CREATE TABLE 'QUARTOS' IF NOT EXISTS  (
+CREATE TABLE  IF NOT EXISTS `QUARTOS` (
   `id_Quartos` INT NOT NULL AUTO_INCREMENT,
   `max_pessoas` INT NOT NULL,
   `manutencao` VARCHAR(45) NOT NULL,
@@ -105,7 +105,7 @@ CREATE TABLE 'QUARTOS' IF NOT EXISTS  (
 -- -----------------------------------------------------
 -- Table `mydb`.`Funcionarios`
 -- -----------------------------------------------------
-CREATE TABLE 'FUNCIONARIOS' IF NOT EXISTS  (
+CREATE TABLE  IF NOT EXISTS `FUNCIONARIOS` (
   `funcionario_id` INT NOT NULL AUTO_INCREMENT,
   `nome` VARCHAR(45) NOT NULL,
   `sobrenome` VARCHAR(45) NOT NULL,
@@ -123,7 +123,7 @@ CREATE TABLE 'FUNCIONARIOS' IF NOT EXISTS  (
 -- -----------------------------------------------------
 -- Table `mydb`.`Atividades`
 -- -----------------------------------------------------
-CREATE TABLE 'ATIVIDADES' IF NOT EXISTS  (
+CREATE TABLE  IF NOT EXISTS `ATIVIDADES` (
   `id_atividade` INT NOT NULL AUTO_INCREMENT,
   `horario` VARCHAR(45) NOT NULL,
   `horario_fim` VARCHAR(45) NOT NULL,
@@ -144,7 +144,7 @@ CREATE TABLE 'ATIVIDADES' IF NOT EXISTS  (
 -- -----------------------------------------------------
 -- Table `mydb`.`servicos_consumidos`
 -- -----------------------------------------------------
-CREATE TABLE 'SERVICOS_CONSUMIDOS' IF NOT EXISTS (
+CREATE TABLE  IF NOT EXISTS `SERVICOS_CONSUMIDOS`(
   `id_servicos_consumidos` INT NOT NULL AUTO_INCREMENT,
   `id_hospede` INT NOT NULL,
   `id_serviço` INT NOT NULL,
@@ -169,7 +169,7 @@ CREATE TABLE 'SERVICOS_CONSUMIDOS' IF NOT EXISTS (
 -- -----------------------------------------------------
 -- Table `mydb`.`Hospedagens_quartos`
 -- -----------------------------------------------------
-CREATE TABLE 'HOSPEDAGENS_QUARTOS' IF NOT EXISTS  (
+CREATE TABLE  IF NOT EXISTS `HOSPEDAGENS_QUARTOS` (
   `id_Hospedagem_quartos` INT NOT NULL AUTO_INCREMENT,
   `id_Quartos` INT NOT NULL,
   `Hospedagens_id` INT NOT NULL,
@@ -194,7 +194,7 @@ CREATE TABLE 'HOSPEDAGENS_QUARTOS' IF NOT EXISTS  (
 -- -----------------------------------------------------
 -- Table `mydb`.`Atividades_hospede`
 -- -----------------------------------------------------
-CREATE TABLE 'ATIVIDADES_HOSPEDE' IF NOT EXISTS  (
+CREATE TABLE  IF NOT EXISTS `ATIVIDADES_HOSPEDE` (
   `id_hospede_atividade` INT NOT NULL AUTO_INCREMENT,
   `Hospede_id` INT NOT NULL,
   `id_atividade` INT NOT NULL,
