@@ -636,7 +636,28 @@ update Consumo
 set nome_servico='bugy', preco_servico=250
 where id_servicos=20;
 
-
+/*Update Servicos_CONSUMIDOS*/
+update `SERVICOS_CONSUMIDOS`
+set id_hospede= 1,id_servico = 1, id_hospedagens=1
+where  id_servico_consumidos= 1;
+set id_hospede= 2,id_servico = 2, id_hospedagens=2
+where  id_servico_consumidos= 2;
+set id_hospede= 3,id_servico = 3, id_hospedagens=3
+where  id_servico_consumidos= 3;
+set id_hospede= 4,id_servico = 4, id_hospedagens=4
+where  id_servico_consumidos= 4;
+set id_hospede= 5,id_servico = 5, id_hospedagens=5
+where  id_servico_consumidos= 5;
+set id_hospede= 6,id_servico = 6, id_hospedagens=6
+where  id_servico_consumidos= 6;
+set id_hospede= 7,id_servico = 7, id_hospedagens=7
+where  id_servico_consumidos= 7;
+set id_hospede= 8,id_servico = 8, id_hospedagens=8
+where  id_servico_consumidos= 8;
+set id_hospede= 9,id_servico = 9, id_hospedagens=9
+where  id_servico_consumidos= 9;
+set id_hospede= 10,id_servico = 10, id_hospedagens=10
+where  id_servico_consumidos= 10;
 
 
 
