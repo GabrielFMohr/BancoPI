@@ -377,7 +377,7 @@ insert into Servicos (preco_servicos, nome_servicos) values (275.8, 'Aula de dan
 
 /*Tabela Atividades_hospede*/
 
-insert int Atividades_hospede(Hospede_id, id_usuario)
+insert into Atividades_hospede(Hospede_id, id_usuario)
 values (1,1),
 (2,2),
 (3,3),
