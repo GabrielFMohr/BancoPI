@@ -448,6 +448,10 @@ select * from Quartos;
 
 /*Select Join*/
 
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+/*>>>>>>> Stashed changes*/
+=======
 SELECT * FROM Funcionarios INNER JOIN Usuarios ON Funcionarios.id_usuario = Usuarios.id_usuario;
 
 SELECT * FROM Funcionarios INNER JOIN Atividades ON Funcionarios.funcionario_id = Atividades.funcionario_id;
@@ -462,6 +466,44 @@ SELECT * FROM Hospedagens_quartos INNER JOIN Quartos ON Hospedagens_quartos.id_Q
 
 SELECT * FROM servicos_consumidos INNER JOIN Hospede ON servicos_consumidos.id_hospede = Hospede.id_hospede INNER JOIN sevicos ON servicos_consumidos.id_servicos = servicos.id_servicos INNER JOIN Hospedagens ON servicos_consumidos.id_hospedagens = Hospedagens.id_hospedagens;
 
+
+
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+=======
+/*Update funcionarios*/
+update Funcionarios
+set nome = 'Miguel', sobrenome = 'Almeida', funcao = 'Zelador', salario = '$9016.38'
+where id_atividade 1;
+update Funcionarios
+set nome = 'Junior', sobrenome = 'Silva', funcao = 'Camareiro', salario = '$9526.14'
+where id_atividade 2;
+update Funcionarios
+set nome = 'Marcos', sobrenome = 'Silva', funcao = 'Recepcionista', salario = '$5890.71'
+where id_atividade 3;
+update Funcionarios
+set nome = 'Romario', sobrenome = 'Mendes', funcao = 'Recepcionista', salario = '$5890.71'
+where id_atividade 4;
+update Funcionarios
+set nome = 'Lucas', sobrenome = 'Oliveira', funcao = 'Diarista', salario = '$6212.93'
+where id_atividade 5;
+update Funcionarios
+set nome = 'Sabrina', sobrenome = 'Lima', funcao = 'Secretaria', salario = '$6232.93'
+where id_atividade 6;
+update Funcionarios
+set nome = 'Ana', sobrenome = 'Amaral', funcao = 'Gerente', salario = '$9734.61'
+where id_atividade 7;
+update Funcionarios
+set nome = 'Rosalia', sobrenome = 'Helena', funcao = 'Jardineira', salario = '$3400.61'
+where id_atividade 8;
+update Funcionarios
+set nome = 'lucio', sobrenome = 'Carvalho', funcao = 'Faxineiro', salario = '$4500.43'
+where id_atividade 9;
+update Funcionarios
+set nome = 'Maria', sobrenome = 'Eliza', funcao = 'Recepcionista', salario = '$6200.23'
+where id_atividade 10;
+
+>>>>>>> Stashed changes
 
 /*Update Servicos*/
 update Servicos
@@ -527,8 +569,102 @@ update Hospedagens
 set checkin = '10/10/2023', checkout = '15/10/2023'
 where  hospedagens_id = 10;
 
+/*Update Usuários*/
+update Usuarios
+set senha = '12345',nivel_de_acesso = 1, login="Roncas"
+where  id_usuario = 1;
+set senha = '67891',nivel_de_acesso = 0, login="Bernas"
+where  id_usuario = 2;
+set senha = '101112',nivel_de_acesso = 1, login="Andras"
+where  id_usuario = 3;
+set senha = '126890',nivel_de_acesso = 1, login="Luigigigie"
+where  id_usuario = 4;
+set senha = '61701',nivel_de_acesso = 0, login= "Muliro"
+where  id_usuario = 5;
+set senha = '01234',nivel_de_acesso = 1, login="Gagas"
+where  id_usuario = 6;
+set senha = '901890',nivel_de_acesso = 1, login="Gustas"
+where  id_usuario = 7;
+set senha = '448768',nivel_de_acesso = 1, login="Kakas"
+where  id_usuario = 8;
+set senha = '48765',nivel_de_acesso = 1, login="Charlão"
+where  id_usuario = 9;
+set senha = '4165',nivel_de_acesso = 1, login="Clóvis"
+where  id_usuario = 10;
 
 
 
+/*Update Consumo*/
 
+update Consumo
+set nome_servico='aula de boxe',  preco_servico=250
+where id_servicos=1;
+
+update Consumo
+set nome_servico ='aula de vôlei', preco_servico=230
+where id_servicos=11;
+
+update Consumo
+set nome_servico= 'aula de capoeira', preco_servico=157.09
+where id_servicos=7;
+
+update Consumo
+set nome_servico='aula de futebol', preco_servico=243.11
+where id_servicos=12;
+
+update Consumo
+set nome_servico='pôker', preco_servico=143.33
+where id_servicos=18;
+
+update Consumo
+set nome_servico='aula de karatê', preco_servico=111.11
+where id_servicos=5;
+
+update Consumo
+set nome_servico='aula de kickbox', preco_servico=250
+where id_servicos=9;
+
+update Consumo
+set nome_servico='piscina', preco_servico=250
+where id_servicos=7;
+
+update Consumo
+set nome_servico='sauna', preco_servico=132
+where id_servicos=19;
+
+update Consumo
+set nome_servico='bugy', preco_servico=250
+where id_servicos=20;
+
+/*Update Servicos_CONSUMIDOS*/
+update `SERVICOS_CONSUMIDOS`
+set id_hospede= 1,id_servico = 1, id_hospedagens=1
+where  id_servico_consumidos= 1;
+set id_hospede= 2,id_servico = 2, id_hospedagens=2
+where  id_servico_consumidos= 2;
+set id_hospede= 3,id_servico = 3, id_hospedagens=3
+where  id_servico_consumidos= 3;
+set id_hospede= 4,id_servico = 4, id_hospedagens=4
+where  id_servico_consumidos= 4;
+set id_hospede= 5,id_servico = 5, id_hospedagens=5
+where  id_servico_consumidos= 5;
+set id_hospede= 6,id_servico = 6, id_hospedagens=6
+where  id_servico_consumidos= 6;
+set id_hospede= 7,id_servico = 7, id_hospedagens=7
+where  id_servico_consumidos= 7;
+set id_hospede= 8,id_servico = 8, id_hospedagens=8
+where  id_servico_consumidos= 8;
+set id_hospede= 9,id_servico = 9, id_hospedagens=9
+where  id_servico_consumidos= 9;
+set id_hospede= 10,id_servico = 10, id_hospedagens=10
+where  id_servico_consumidos= 10;
+
+
+
+<<<<<<< Updated upstream
+=======
+
+=======
+/*Select Join*/
+>>>>>>> Stashed changes
 
