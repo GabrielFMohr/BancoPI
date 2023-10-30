@@ -659,12 +659,82 @@ where  id_servico_consumidos= 9;
 set id_hospede= 10,id_servico = 10, id_hospedagens=10
 where  id_servico_consumidos= 10;
 
+/* Delete usuarios*/
 
+DELETE FROM Usuarios WHERE id_usuario = 1;
+DELETE FROM Usuarios WHERE id_usuario = 2;
+DELETE FROM Usuarios WHERE id_usuario = 3;
+DELETE FROM Usuarios WHERE id_usuario = 4;
+DELETE FROM Usuarios WHERE id_usuario = 5;
 
-<<<<<<< Updated upstream
-=======
+/* Delete Hospedes*/
 
-=======
-/*Select Join*/
->>>>>>> Stashed changes
+DELETE FROM Hospedes WHERE Hospede_id = 1;
+DELETE FROM Hospedes WHERE Hospede_id = 2;
+DELETE FROM Hospedes WHERE Hospede_id = 3;
+DELETE FROM Hospedes WHERE Hospede_id = 4;
+DELETE FROM Hospedes WHERE Hospede_id = 5;
 
+/* Delete Atividades*/
+
+DELETE FROM Atividades Where id_atividade = 1;
+DELETE FROM Atividades Where id_atividade = 2;
+DELETE FROM Atividades Where id_atividade = 3;
+DELETE FROM Atividades Where id_atividade = 4;
+DELETE FROM Atividades Where id_atividade = 5;
+
+/* Delete Hospedagens*/
+
+DELETE FROM Hospedagens Where Hospedagens_id = 1;
+DELETE FROM Hospedagens Where Hospedagens_id = 2;
+DELETE FROM Hospedagens Where Hospedagens_id = 3;
+DELETE FROM Hospedagens Where Hospedagens_id = 4;
+DELETE FROM Hospedagens Where Hospedagens_id = 5;
+
+/* Delete Servicos*/
+
+DELETE FROM servicos Where id_servicos = 1;
+DELETE FROM servicos Where id_servicos = 2;
+DELETE FROM servicos Where id_servicos = 3;
+DELETE FROM servicos Where id_servicos = 4;
+DELETE FROM servicos Where id_servicos = 5;
+
+/* Delete Servicos_consumidos*/
+
+DELETE FROM servicos_consumidos Where id_servicos_consumidos = 1;
+DELETE FROM servicos_consumidos Where id_servicos_consumidos = 2;
+DELETE FROM servicos_consumidos Where id_servicos_consumidos = 3;
+DELETE FROM servicos_consumidos Where id_servicos_consumidos = 4;
+DELETE FROM servicos_consumidos Where id_servicos_consumidos = 5;
+
+/* Delete Quartos */
+
+DELETE FROM Quartos Where id_Quartos = 1;
+DELETE FROM Quartos Where id_Quartos = 2;
+DELETE FROM Quartos Where id_Quartos = 3;
+DELETE FROM Quartos Where id_Quartos = 4;
+DELETE FROM Quartos Where id_Quartos = 5;
+
+/* Delete Atividades_hospede */
+
+DELETE FROM Atividade_hospede Where id_hospede_atividade = 1;
+DELETE FROM Atividade_hospede Where id_hospede_atividade = 2;
+DELETE FROM Atividade_hospede Where id_hospede_atividade = 3;
+DELETE FROM Atividade_hospede Where id_hospede_atividade = 4;
+DELETE FROM Atividade_hospede Where id_hospede_atividade = 5;
+
+/* Delete Hospedagens_quartos */
+
+DELETE FROM Hospedagens_quartos Where id_Hospedagem_quartos = 1;
+DELETE FROM Hospedagens_quartos Where id_Hospedagem_quartos = 2;
+DELETE FROM Hospedagens_quartos Where id_Hospedagem_quartos = 3;
+DELETE FROM Hospedagens_quartos Where id_Hospedagem_quartos = 4;
+DELETE FROM Hospedagens_quartos Where id_Hospedagem_quartos = 5;
+
+/* Delete Funcionarios */
+
+DELETE FROM Funcionarios Where funcionario_id = 1;
+DELETE FROM Funcionarios Where funcionario_id = 2;
+DELETE FROM Funcionarios Where funcionario_id = 3;
+DELETE FROM Funcionarios Where funcionario_id = 4;
+DELETE FROM Funcionarios Where funcionario_id = 5;
