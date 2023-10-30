@@ -14,33 +14,6 @@ CREATE TABLE IF NOT EXISTS `USUARIOS`(
   `login` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`id_usuario`));
 
-insert into USUARIOS ( senha, nivel_de_acesso, login)
-values ("M@iones3", 0,"MAZDARX7" ),
-("Mor", 0,"Cralos Ícaro" ),
-("Geromel", 1,"Andrei" ),
-("macaco", 0,"Micu" ),
-("blaze", 1,"FelipeNeto" ),
-("Azul", 1,"Smurfette" ),
-("Gorro", 1,"PapaSmurf" ),
-("Azar", 0,"Desastrado" ),
-("Bobo", 1,"Joca" ),
-("Forte", 0,"Robusto" ),
-("Ruiva", 1," Sassette" ),
-("Burro", 1,"Gênio" ),
-("Feliz", 0,"Ranzinza" ),
-("Horrível", 1,"Habilidoso" ),
-("Bonitão", 0,"Vaidoso" ),
-("Véio", 0,"VovôSmurf" ),
-("Bonzinho", 1,"DevilSmurf" ),
-("Bom", 0,"Tuffy" ),
-("Rastreio", 1,"Caçador" ),
-("Véia", 1,"VovóSmurf" ),
-("AgroBoy", 1,"Fazendeiro" ),
-("Pedreiro", 1,"TimberSmurf" ),
-("BadBoy", 0,"AngelSmurf" ),
-("Woolly", 1,"WoolySmurf" );
-
-
 -- -----------------------------------------------------
 -- Table `mydb`.`Hospedes`
 -- -----------------------------------------------------
@@ -473,6 +446,29 @@ select * from Hospedagens;
 select * from Hospedagens_quartos;
 select * from Quartos;
 
+/*Select Join*/
+
+<<<<<<< Updated upstream
+/*>>>>>>> Stashed changes*/
+=======
+SELECT * FROM Funcionarios INNER JOIN Usuarios ON Funcionarios.id_usuario = Usuarios.id_usuario;
+
+SELECT * FROM Funcionarios INNER JOIN Atividades ON Funcionarios.funcionario_id = Atividades.funcionario_id;
+
+SELECT * FROM Usuarios INNER JOIN Hospedes ON usuario.id_usuario = Hospedes.id_usuario;
+
+SELECT * FROM Atividade_hospede INNER JOIN Hospede ON Atividades_hospede.Hospede_id = Hospedes.Hospedes_id INNER JOIN Atividades ON Atividades_hospede.id_atividade = Atividades.id_atividade;
+
+SELECT * FROM Hospedagens INNER JOIN Hospedes ON Hospedagens.Hospede_id = Hospedes.Hospede_id;
+
+SELECT * FROM Hospedagens_quartos INNER JOIN Quartos ON Hospedagens_quartos.id_Quartos = Quartos.id_Quartos INNER JOIN Hospedagens ON Hospedagens_quartos.Hospedagens_id = Hospedagens.Hospedagens_id INNER JOIN Hospede ON Hospedagens_quartos.Hospede_id = Hospede_id;
+
+SELECT * FROM servicos_consumidos INNER JOIN Hospede ON servicos_consumidos.id_hospede = Hospede.id_hospede INNER JOIN sevicos ON servicos_consumidos.id_servicos = servicos.id_servicos INNER JOIN Hospedagens ON servicos_consumidos.id_hospedagens = Hospedagens.id_hospedagens;
+
+
+
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 
 /*Update Servicos*/
 update Servicos
@@ -543,7 +539,3 @@ where  hospedagens_id = 10;
 
 
 
-/*Select Join*/
-
-SELECT * FROM funcionarios INNER JOIN usuarios ON funcionarios.funcionario_id = usuarios.id_funcionario;
-/*>>>>>>> Stashed changes*/
