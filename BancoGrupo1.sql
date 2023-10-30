@@ -506,6 +506,39 @@ update Servicos
 set preco_servico= 250, nome_servicos='bugy'
 where id_servico=20;
 
+/*Update Hospedagens*/
+update Hospedagens
+set checkin = '13/12/2023', checkout = '16/12/2023'
+where  hospedagens_id = 1;
+update Hospedagens
+set checkin = '01/07/2023', checkout = '07/07/2023'
+where  hospedagens_id = 2;
+update Hospedagens
+set checkin = '09/02/2023', checkout = '14/02/2023'
+where  hospedagens_id = 3;
+update Hospedagens
+set checkin = '16/05/2023', checkout = '25/05/2023'
+where  hospedagens_id = 4;
+update Hospedagens
+set checkin = '30/8/2023', checkout = '05/09/2023'
+where  hospedagens_id = 5;
+update Hospedagens
+set checkin = '04/06/2023', checkout = '10/06/2023'
+where  hospedagens_id = 6;
+update Hospedagens
+set checkin = '12/03/2023', checkout = '17/03/2023'
+where  hospedagens_id = 7;
+update Hospedagens
+set checkin = '16/03/2023', checkout = '20/03/2023'
+where  hospedagens_id = 8;
+update Hospedagens
+set checkin = '04/04/2023', checkout = '07/04/2023'
+where  hospedagens_id = 9;
+update Hospedagens
+set checkin = '10/10/2023', checkout = '15/10/2023'
+where  hospedagens_id = 10;
+
+
 
 
 
