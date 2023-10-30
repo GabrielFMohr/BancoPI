@@ -499,6 +499,7 @@ where id_servico=9;
 update Servicos
 set preco_servico= 250, nome_servicos='piscina'
 where id_servico=7;
+update Servicos
 set preco_servico= 132, nome_servicos='sauna'
 where id_servico=19;
 update Servicos
