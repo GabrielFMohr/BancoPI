@@ -636,7 +636,11 @@ update Consumo
 set nome_servico='bugy', preco_servico=250
 where id_servicos=20;
 
+/*Update Quartos*/
 
+update Quartos
+set max_pessoas = , manutencao = , tipo_cama = '', frigobar = , ar_condicionado = , banheira = , tv = , preco_quarto_dia = 
+where id_quartos
 
 
 
