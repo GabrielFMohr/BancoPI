@@ -216,7 +216,7 @@ insert into USUARIOS ( senha, nivel_de_acesso, login)
 values ("M@iones3", 0,"MAZDARX7" ),
 ("eido", 0,"Cralos Ícaro" ),
 ("Geromel", 1,"Andrei" ),
-("macaco", 0,"MicoMeu" ),
+("macaco", 0,"Mico" ),
 ("blaze", 1,"FelipeNeto" ),
 ("Azul", 1,"Smurfette" ),
 ("Gorro", 1,"PapaSmurf" ),
@@ -504,6 +504,8 @@ where id_servico=19;
 update Servicos
 set preco_servico= 250, nome_servicos='bugy'
 where id_servico=20;
+
+
 
 
 =======
