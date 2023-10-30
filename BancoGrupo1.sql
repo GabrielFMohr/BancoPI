@@ -636,11 +636,79 @@ update Consumo
 set nome_servico='bugy', preco_servico=250
 where id_servicos=20;
 
+<<<<<<< HEAD
 /*Update Quartos*/
 
 update Quartos
 set max_pessoas = , manutencao = , tipo_cama = '', frigobar = , ar_condicionado = , banheira = , tv = , preco_quarto_dia = 
 where id_quartos
+=======
+/*Update Servicos_CONSUMIDOS*/
+update `SERVICOS_CONSUMIDOS`
+set id_hospede= 1,id_servico = 1, id_hospedagens=1
+where  id_servico_consumidos= 1;
+set id_hospede= 2,id_servico = 2, id_hospedagens=2
+where  id_servico_consumidos= 2;
+set id_hospede= 3,id_servico = 3, id_hospedagens=3
+where  id_servico_consumidos= 3;
+set id_hospede= 4,id_servico = 4, id_hospedagens=4
+where  id_servico_consumidos= 4;
+set id_hospede= 5,id_servico = 5, id_hospedagens=5
+where  id_servico_consumidos= 5;
+set id_hospede= 6,id_servico = 6, id_hospedagens=6
+where  id_servico_consumidos= 6;
+set id_hospede= 7,id_servico = 7, id_hospedagens=7
+where  id_servico_consumidos= 7;
+set id_hospede= 8,id_servico = 8, id_hospedagens=8
+where  id_servico_consumidos= 8;
+set id_hospede= 9,id_servico = 9, id_hospedagens=9
+where  id_servico_consumidos= 9;
+set id_hospede= 10,id_servico = 10, id_hospedagens=10
+where  id_servico_consumidos= 10;
+
+
+/*update Atividades hospede*/
+
+update Atividades_hospedes
+set Hospede_id=1, id_atividade=1
+where id_hospede_atividade=1;
+
+update Atividades_hospedes
+set  Hospede_id=2, id_atividade=2
+where id_hospede_atividade=2;
+
+update Atividades_hospedes
+set  Hospede_id=3, id_atividade=3
+where id_hospede_atividade=3;
+
+update Atividades_hospedes
+set  Hospede_id=4, id_atividade=4
+where id_hospede_atividade=4;
+
+update Atividades_hospedes
+set  Hospede_id=5, id_atividade=5
+where id_hospede_atividade=5;
+
+update Atividades_hospedes
+set  Hospede_id=6, id_atividade=6
+where id_hospede_atividade=6;
+
+update Atividades_hospedes
+set  Hospede_id=7, id_atividade=7
+where id_hospede_atividade=7;
+
+update Atividades_hospedes
+set  Hospede_id=8, id_atividade=8
+where id_hospede_atividade=8;
+
+update Atividades_hospedes
+set  Hospede_id=9, id_atividade=9
+where id_hospede_atividade=9;
+
+update Atividades_hospedes
+set  Hospede_id=10, id_atividade=10
+where id_hospede_atividade=10;
+>>>>>>> main
 
 
 
