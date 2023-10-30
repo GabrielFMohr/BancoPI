@@ -472,34 +472,34 @@ SELECT * FROM servicos_consumidos INNER JOIN Hospede ON servicos_consumidos.id_h
 
 /*Update Servicos*/
 update Servicos
-set preco_servico= 250, nome_servicos='aula de boxe'
+set preco_servicos= 250, nome_servicos='aula de boxe'
 where id_servico=1;
 update Servicos
-set preco_servico= 10, nome_servicos='prato do dia'
+set preco_servicos= 10, nome_servicos='prato do dia'
 where id_servico=11;
 update Servicos
-set preco_servico= 157.09, nome_servicos='aula de capoeira'
+set preco_servicos= 157.09, nome_servicos='aula de capoeira'
 where id_servico=7;
 update Servicos
-set preco_servico= 243.11, nome_servicos='aula de futebol'
+set preco_servicos= 243.11, nome_servicos='aula de futebol'
 where id_servico=12;
 update Servicos
-set preco_servico= 143.33, nome_servicos='pôker'
+set preco_servicos= 143.33, nome_servicos='pôker'
 where id_servico=18;
 update Servicos
-set preco_servico= 111.11, nome_servicos='aula de karatê'
+set preco_servicos= 111.11, nome_servicos='aula de karatê'
 where id_servico=5;
 update Servicos
-set preco_servico= 250, nome_servicos='aula de kickbox'
+set preco_servicos= 250, nome_servicos='aula de kickbox'
 where id_servico=9;
 update Servicos
-set preco_servico= 250, nome_servicos='piscina'
+set preco_servicos= 250, nome_servicos='piscina'
 where id_servico=7;
 update Servicos
-set preco_servico= 132, nome_servicos='sauna'
+set preco_servicos= 132, nome_servicos='sauna'
 where id_servico=19;
 update Servicos
-set preco_servico= 250, nome_servicos='bugy'
+set preco_servicos= 250, nome_servicos='bugy'
 where id_servico=20;
 
 /*Update Hospedagens*/
