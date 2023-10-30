@@ -449,6 +449,7 @@ select * from Quartos;
 /*Select Join*/
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 /*>>>>>>> Stashed changes*/
 =======
 SELECT * FROM Funcionarios INNER JOIN Usuarios ON Funcionarios.id_usuario = Usuarios.id_usuario;
@@ -468,6 +469,40 @@ SELECT * FROM servicos_consumidos INNER JOIN Hospede ON servicos_consumidos.id_h
 
 
 >>>>>>> Stashed changes
+>>>>>>> Stashed changes
+=======
+/*Update funcionarios*/
+update Funcionarios
+set nome = 'Miguel', sobrenome = 'Almeida', funcao = 'Zelador', salario = '$9016.38'
+where id_atividade 1;
+update Funcionarios
+set nome = 'Junior', sobrenome = 'Silva', funcao = 'Camareiro', salario = '$9526.14'
+where id_atividade 2;
+update Funcionarios
+set nome = 'Marcos', sobrenome = 'Silva', funcao = 'Recepcionista', salario = '$5890.71'
+where id_atividade 3;
+update Funcionarios
+set nome = 'Romario', sobrenome = 'Mendes', funcao = 'Recepcionista', salario = '$5890.71'
+where id_atividade 4;
+update Funcionarios
+set nome = 'Lucas', sobrenome = 'Oliveira', funcao = 'Diarista', salario = '$6212.93'
+where id_atividade 5;
+update Funcionarios
+set nome = 'Sabrina', sobrenome = 'Lima', funcao = 'Secretaria', salario = '$6232.93'
+where id_atividade 6;
+update Funcionarios
+set nome = 'Ana', sobrenome = 'Amaral', funcao = 'Gerente', salario = '$9734.61'
+where id_atividade 7;
+update Funcionarios
+set nome = 'Rosalia', sobrenome = 'Helena', funcao = 'Jardineira', salario = '$3400.61'
+where id_atividade 8;
+update Funcionarios
+set nome = 'lucio', sobrenome = 'Carvalho', funcao = 'Faxineiro', salario = '$4500.43'
+where id_atividade 9;
+update Funcionarios
+set nome = 'Maria', sobrenome = 'Eliza', funcao = 'Recepcionista', salario = '$6200.23'
+where id_atividade 10;
+
 >>>>>>> Stashed changes
 
 /*Update Servicos*/
@@ -605,4 +640,10 @@ where id_servicos=20;
 
 
 
+<<<<<<< Updated upstream
+=======
+
+=======
+/*Select Join*/
+>>>>>>> Stashed changes
 
