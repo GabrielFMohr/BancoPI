@@ -534,6 +534,30 @@ update Hospedagens
 set checkin = '10/10/2023', checkout = '15/10/2023'
 where  hospedagens_id = 10;
 
+/*Update Usuários*/
+update Usuarios
+set senha = '12345',nivel_de_acesso = 1, login="Roncas"
+where  id_usuario = 1;
+set senha = '67891',nivel_de_acesso = 0, login="Bernas"
+where  id_usuario = 2;
+set senha = '101112',nivel_de_acesso = 1, login="Andras"
+where  id_usuario = 3;
+set senha = '126890',nivel_de_acesso = 1, login="Luigigigie"
+where  id_usuario = 4;
+set senha = '61701',nivel_de_acesso = 0, login= "Muliro"
+where  id_usuario = 5;
+set senha = '01234',nivel_de_acesso = 1, login="Gagas"
+where  id_usuario = 6;
+set senha = '901890',nivel_de_acesso = 1, login="Gustas"
+where  id_usuario = 7;
+set senha = '448768',nivel_de_acesso = 1, login="Kakas"
+where  id_usuario = 8;
+set senha = '48765',nivel_de_acesso = 1, login="Charlão"
+where  id_usuario = 9;
+set senha = '4165',nivel_de_acesso = 1, login="Clóvis"
+where  id_usuario = 10;
+
+
 
 
 
