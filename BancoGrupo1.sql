@@ -448,9 +448,6 @@ select * from Quartos;
 
 /*Select Join*/
 
-<<<<<<< Updated upstream
-/*>>>>>>> Stashed changes*/
-=======
 SELECT * FROM Funcionarios INNER JOIN Usuarios ON Funcionarios.id_usuario = Usuarios.id_usuario;
 
 SELECT * FROM Funcionarios INNER JOIN Atividades ON Funcionarios.funcionario_id = Atividades.funcionario_id;
@@ -465,10 +462,6 @@ SELECT * FROM Hospedagens_quartos INNER JOIN Quartos ON Hospedagens_quartos.id_Q
 
 SELECT * FROM servicos_consumidos INNER JOIN Hospede ON servicos_consumidos.id_hospede = Hospede.id_hospede INNER JOIN sevicos ON servicos_consumidos.id_servicos = servicos.id_servicos INNER JOIN Hospedagens ON servicos_consumidos.id_hospedagens = Hospedagens.id_hospedagens;
 
-
-
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 
 /*Update Servicos*/
 update Servicos
