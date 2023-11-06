@@ -705,6 +705,48 @@ where  id_servico_consumidos= 9;
 set id_hospede= 10,id_servico = 10, id_hospedagens=10
 where  id_servico_consumidos= 10;
 
+/*update atividades*/
+
+update Atividades
+set nome_atividade='aula de boxe'
+where id_atividade=1;
+
+update Atividades
+set nome_atividade ='aula de vôlei'
+where id_atividade=11;
+
+update Atividades
+set nome_atividade= 'aula de capoeira'
+where id_atividade=7;
+
+update Atividades
+set nome_atividade='aula de futebol'
+where id_atividade=12;
+
+update Atividades
+set nome_atividade='pôker'
+where id_atividade=18;
+
+update Atividades
+set nome_atividade='aula de karatê'
+where id_atividade=5;
+
+update Atividades
+set nome_atividade='aula de kickbox'
+where id_atividade=9;
+
+update Atividades
+set nome_atividade='piscina'
+where id_atividade=7;
+
+update Atividades
+set nome_atividade='sauna'
+where id_atividade=19;
+
+update Atividades
+set nome_atividade='bugy'
+where id_atividade=20;
+
 
 /*update Atividades hospede*/
 
