@@ -258,26 +258,26 @@ insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Mose', 'Joz
 
 /*Tabela Quartos*/
 
-insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (27, 1, 'Casal', 1, 0, 1, 0, 927.53);
-insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (43, 0, 'Casal', 0, 0, 0, 1, 387.28);
-insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (28, 0, 'Casal', 1, 0, 0, 1, 733.04);
-insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (44, 0, 'Casal', 0, 1, 0, 0, 1593.7);
-insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (41, 1, 'Casal', 0, 0, 0, 1, 576.8);
-insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (29, 0, 'Casal', 1, 1, 0, 1, 773.33);
-insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (15, 1, 'Casal', 0, 0, 1, 1, 1478.15);
-insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (15, 1, 'Casal', 0, 1, 1, 0, 765.21);
-insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (21, 1, 'Casal', 1, 0, 0, 0, 735.41);
-insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (21, 0, 'Casal', 1, 1, 1, 1, 508.69);
-insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (33, 1, 'Solteiro', 1, 1, 1, 0, 1963.8);
-insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (22, 0, 'Solteiro', 0, 0, 0, 1, 1298.17);
-insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (41, 0, 'Solteiro', 0, 0, 0, 1, 1673.81);
-insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (30, 1, 'Solteiro', 0, 0, 1, 1, 633.46);
-insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (39, 1, 'Solteiro', 0, 0, 1, 1, 449.5);
-insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (17, 0, 'Solteiro', 0, 0, 0, 1, 1547.8);
-insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (42, 1, 'Solteiro', 0, 1, 0, 1, 459.85);
-insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (17, 0, 'Solteiro', 1, 0, 0, 0, 1102.29);
-insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (27, 0, 'Solteiro', 0, 0, 0, 1, 1484.32);
-insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (47, 0, 'Solteiro', 0, 0, 0, 1, 1907.04);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (2, 1, 'Casal', 1, 0, 1, 0, 927.53);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (5, 0, 'Casal', 0, 0, 0, 1, 387.28);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (4, 0, 'Casal', 1, 0, 0, 1, 733.04);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (2, 0, 'Casal', 0, 1, 0, 0, 1593.7);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (4, 1, 'Casal', 0, 0, 0, 1, 576.8);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (2, 0, 'Casal', 1, 1, 0, 1, 773.33);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (2, 1, 'Casal', 0, 0, 1, 1, 1478.15);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (4, 1, 'Casal', 0, 1, 1, 0, 765.21);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (2, 1, 'Casal', 1, 0, 0, 0, 735.41);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (2, 0, 'Casal', 1, 1, 1, 1, 508.69);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (4, 1, 'Solteiro', 1, 1, 1, 0, 1963.8);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (3, 0, 'Solteiro', 0, 0, 0, 1, 1298.17);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (1, 0, 'Solteiro', 0, 0, 0, 1, 1673.81);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (1, 1, 'Solteiro', 0, 0, 1, 1, 633.46);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (2, 1, 'Solteiro', 0, 0, 1, 1, 449.5);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (3, 0, 'Solteiro', 0, 0, 0, 1, 1547.8);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (1, 1, 'Solteiro', 0, 1, 0, 1, 459.85);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (2, 0, 'Solteiro', 1, 0, 0, 0, 1102.29);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (1, 0, 'Solteiro', 0, 0, 0, 1, 1484.32);
+insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condicionado, banheira, tv, preco_quarto_dia) values (3, 0, 'Solteiro', 0, 0, 0, 1, 1907.04);
 
 /*Tabela hospedagens*/
 
@@ -640,8 +640,47 @@ where id_servicos=20;
 /*Update Quartos*/
 
 update Quartos
-set max_pessoas = , manutencao = , tipo_cama = '', frigobar = , ar_condicionado = , banheira = , tv = , preco_quarto_dia = 
-where id_quartos
+set max_pessoas = 1 , manutencao = 0 , tipo_cama = 'Solteiro', frigobar = 0 , ar_condicionado = 1 , banheira = 0 , tv = 0 , preco_quarto_dia = 925,50
+where id_Quartos = 1;
+
+update Quartos
+set max_pessoas = 2 , manutencao = 1 , tipo_cama = 'Solteiro', frigobar = 1 , ar_condicionado = 0 , banheira = 1 , tv = 1 , preco_quarto_dia = 350,00
+where id_Quartos = 2;
+
+update Quartos
+set max_pessoas = 3 , manutencao = 0 , tipo_cama = 'Casal', frigobar = 0 , ar_condicionado = 1 , banheira = 1 , tv = 1 , preco_quarto_dia = 700,00
+where id_Quartos = 3;
+
+update Quartos
+set max_pessoas = 4 , manutencao = 1 , tipo_cama = 'Solteiro', frigobar = 1 , ar_condicionado = 1 , banheira = 1 , tv = 1 , preco_quarto_dia = 1500,50
+where id_Quartos = 4;
+
+update Quartos
+set max_pessoas = 2 , manutencao = 0 , tipo_cama = 'Casal', frigobar = 1 , ar_condicionado = 1 , banheira = 0 , tv = 1 , preco_quarto_dia = 550,00
+where id_Quartos = 5;
+
+update Quartos
+set max_pessoas = 4 , manutencao = 1 , tipo_cama = 'Solteiro', frigobar = 0 , ar_condicionado = 1 , banheira = 0 , tv = 0 , preco_quarto_dia = 550,00
+where id_Quartos = 6;
+
+update Quartos
+set max_pessoas = 1 , manutencao = 0 , tipo_cama = 'Solteiro', frigobar = 1 , ar_condicionado = 1 , banheira = 1 , tv = 1 , preco_quarto_dia = 950,00
+where id_Quartos = 7;
+
+update Quartos
+set max_pessoas = 2 , manutencao = 0 , tipo_cama = 'Casal', frigobar = 1 , ar_condicionado = 1 , banheira = 1 , tv = 1 , preco_quarto_dia = 1000,00
+where id_Quartos = 8;
+
+update Quartos
+set max_pessoas = 4 , manutencao = 1 , tipo_cama = 'Casal', frigobar = 0 , ar_condicionado = 1 , banheira = 0 , tv = 0 , preco_quarto_dia = 350,00
+where id_Quartos = 9;
+
+update Quartos
+set max_pessoas = 1 , manutencao = 0 , tipo_cama = 'Solteiro', frigobar = 1 , ar_condicionado = 1 , banheira = 1 , tv = 0 , preco_quarto_dia = 450,00
+where id_Quartos = 10;
+
+
+
 =======
 /*Update Servicos_CONSUMIDOS*/
 update `SERVICOS_CONSUMIDOS`
