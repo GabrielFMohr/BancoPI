@@ -3,10 +3,12 @@
 DROP DATABASE IF EXISTS `mydb`;
 
 CREATE database IF NOT EXISTS `mydb` ;
+
 USE `mydb` ;
 
 -- -----------------------------------------------------
--- Table -- -----------------------------------------------------
+-- Table  `mydb`.`Usuarios`
+-- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `USUARIOS`(
   `id_usuario` INT NOT NULL AUTO_INCREMENT,
   `senha` VARCHAR(45) NOT NULL,
@@ -448,10 +450,6 @@ select * from Quartos;
 
 /*Select Join*/
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-/*>>>>>>> Stashed changes*/
-=======
 SELECT * FROM Funcionarios INNER JOIN Usuarios ON Funcionarios.id_usuario = Usuarios.id_usuario;
 
 SELECT * FROM Funcionarios INNER JOIN Atividades ON Funcionarios.funcionario_id = Atividades.funcionario_id;
@@ -466,11 +464,6 @@ SELECT * FROM Hospedagens_quartos INNER JOIN Quartos ON Hospedagens_quartos.id_Q
 
 SELECT * FROM servicos_consumidos INNER JOIN Hospede ON servicos_consumidos.id_hospede = Hospede.id_hospede INNER JOIN sevicos ON servicos_consumidos.id_servicos = servicos.id_servicos INNER JOIN Hospedagens ON servicos_consumidos.id_hospedagens = Hospedagens.id_hospedagens;
 
-
-
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-=======
 /*Update funcionarios*/
 update Funcionarios
 set nome = 'Miguel', sobrenome = 'Almeida', funcao = 'Zelador', salario = '$9016.38'
@@ -539,34 +532,34 @@ where id_servico=20;
 
 /*Update Hospedagens*/
 update Hospedagens
-set checkin = '13/12/2023', checkout = '16/12/2023'
+set checkin = '2023-12-13', checkout = '2023-12-16'
 where  hospedagens_id = 1;
 update Hospedagens
-set checkin = '01/07/2023', checkout = '07/07/2023'
+set checkin = '2023-07-01', checkout = '2023-07-07'
 where  hospedagens_id = 2;
 update Hospedagens
-set checkin = '09/02/2023', checkout = '14/02/2023'
+set checkin = '2023-02-09', checkout = '2023-02-14'
 where  hospedagens_id = 3;
 update Hospedagens
-set checkin = '16/05/2023', checkout = '25/05/2023'
+set checkin = '2023-05-16', checkout = '2023-05-25'
 where  hospedagens_id = 4;
 update Hospedagens
-set checkin = '30/8/2023', checkout = '05/09/2023'
+set checkin = '2023-08-30', checkout = '2023-09-05'
 where  hospedagens_id = 5;
 update Hospedagens
-set checkin = '04/06/2023', checkout = '10/06/2023'
+set checkin = '2023-06-04', checkout = '2023-06-10'
 where  hospedagens_id = 6;
 update Hospedagens
-set checkin = '12/03/2023', checkout = '17/03/2023'
+set checkin = '2023-03-12', checkout = '2023-03-17'
 where  hospedagens_id = 7;
 update Hospedagens
-set checkin = '16/03/2023', checkout = '20/03/2023'
+set checkin = '2023-03-16', checkout = '2023-03-20'
 where  hospedagens_id = 8;
 update Hospedagens
-set checkin = '04/04/2023', checkout = '07/04/2023'
+set checkin = '2023-04-04', checkout = '2023-04-07'
 where  hospedagens_id = 9;
 update Hospedagens
-set checkin = '10/10/2023', checkout = '15/10/2023'
+set checkin = '2023-10-10', checkout = '2023-10-15'
 where  hospedagens_id = 10;
 
 /*Update Usuários*/
@@ -597,11 +590,11 @@ where  id_usuario = 10;
 /*Update Consumo*/
 
 update Consumo
-set nome_servico='aula de boxe',  preco_servico=250
+set nome_servico='aula de boxe',  preco_servico=250.00
 where id_servicos=1;
 
 update Consumo
-set nome_servico ='aula de vôlei', preco_servico=230
+set nome_servico ='aula de vôlei', preco_servico=230.00
 where id_servicos=11;
 
 update Consumo
@@ -621,19 +614,19 @@ set nome_servico='aula de karatê', preco_servico=111.11
 where id_servicos=5;
 
 update Consumo
-set nome_servico='aula de kickbox', preco_servico=250
+set nome_servico='aula de kickbox', preco_servico=250.99
 where id_servicos=9;
 
 update Consumo
-set nome_servico='piscina', preco_servico=250
+set nome_servico='piscina', preco_servico=250.00
 where id_servicos=7;
 
 update Consumo
-set nome_servico='sauna', preco_servico=132
+set nome_servico='sauna', preco_servico=132.00
 where id_servicos=19;
 
 update Consumo
-set nome_servico='bugy', preco_servico=250
+set nome_servico='bugy', preco_servico=250.99
 where id_servicos=20;
 
 <<<<<<< HEAD
@@ -798,7 +791,7 @@ update Hospedagens_quartos
 set id_quartos=1, Hospedagens_id=10, Hospede_id=10
 where id_Hospedagem_quartos=10;
 
-/*update Atividades hospede*/
+/*update Atividades_hospede*/
 
 update Atividades_hospedes
 set Hospede_id=1, id_atividade=1
@@ -841,7 +834,47 @@ set  Hospede_id=10, id_atividade=10
 where id_hospede_atividade=10;
 >>>>>>> main
 
+/*update Hospede*/
 
+Update Hospede
+set nome = 'Jorge', sobrenome = 'Oliveira', data_nasc = '2000-03-03', CPF = '111.222.333-44', Nacionalidade = 'Brasileiro', Pronome = 'Ele/dele', email = 'jorge013@gmail.com', id_usuario = 1
+where  Hospede_id = 1;
+
+Update Hospede
+set nome = 'João', sobrenome = 'Souza', data_nasc = '2001-02-07', Nacionalidade = 'Americano', Pronome = 'Ele/dele', email = 'joaop12@gmail.com', id_usuario = 2
+where  Hospede_id = 2;
+
+Update Hospede
+set nome = 'Maria', sobrenome = 'Rocha', data_nasc = '2002-11-11', CPF = '111.222.333-41', Nacionalidade = 'Brasileiro', Pronome = 'Ela/dela', email = 'maria222@gmail.com', id_usuario = 3
+where  Hospede_id = 3;
+
+Update Hospede
+set nome = 'Andrei', sobrenome = 'Amaral', data_nasc = '2003-09-17', Nacionalidade = 'Americano', Pronome = 'Ele/dele', email = 'AndreiAm@gmail.com', id_usuario = 4
+where  Hospede_id = 4;
+
+Update Hospede
+set nome = 'Gustavo', sobrenome = 'Luiz', data_nasc = '2004-12-22', CPF = '111.222.333-45', Nacionalidade = 'Brasileiro', Pronome = 'Ele/dele', email = 'gusta942@gmail.com', id_usuario = 5
+where  Hospede_id = 5;
+
+Update Hospede
+set nome = 'Bernardo', sobrenome = 'Oliveira', data_nasc = '2001-01-26', CPF = '111.222.333-46', Nacionalidade = 'Brasileiro', Pronome = 'Ele/dele', email = 'be.d0aa@gmail.com', id_usuario = 6
+where  Hospede_id = 6;
+
+Update Hospede
+set nome = 'Erik', sobrenome = 'Roncaglio', data_nasc = '2005-06-30', CPF = '111.222.333-47', Nacionalidade = 'Brasileiro', Pronome = 'Ele/dele', email = 'erik.r01@gmail.com', id_usuario = 7
+where  Hospede_id = 7;
+
+Update Hospede
+set nome = 'Gabriel', sobrenome = 'Mohr', data_nasc = '2003-04-15', CPF = '111.222.333-48', Nacionalidade = 'Brasileiro', Pronome = 'Ele/dele', email = 'gab328n@gmail.com', id_usuario = 8
+where  Hospede_id = 8;
+
+Update Hospede
+set nome = 'Luigi', sobrenome = 'Scharam', data_nasc = '2002-07-02', CPF = '111.222.333-49', Nacionalidade = 'Brasileiro', Pronome = 'Ele/dele', email = 'luigi23@gmail.com', id_usuario = 9
+where  Hospede_id = 9;
+
+Update Hospede
+set nome = 'Muliro', sobrenome = 'Silveira', data_nasc = '2004-10-18', CPF = '111.222.333-50', Nacionalidade = 'Brasileiro', Pronome = 'Ele/dele', email = 'mulibro248@gmail.com', id_usuario = 10
+where  Hospede_id = 10;
 
 /* Delete usuarios*/
 
