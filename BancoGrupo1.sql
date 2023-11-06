@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS `HOSPEDES`(
   `nome` VARCHAR(45) NOT NULL,
   `sobrenome` VARCHAR(45) NOT NULL,
   `data_nasc` DATE NOT NULL,
-  `CPF` BIGINT(11) NOT NULL,
+  `CPF` VARCHAR(45) NOT NULL,
   `Nacionalidade` VARCHAR(45) NOT NULL,
   `Pronome` VARCHAR(45) NOT NULL,
   `email` VARCHAR(45) NOT NULL,
@@ -106,7 +106,6 @@ CREATE TABLE  IF NOT EXISTS `ATIVIDADES` (
   `restricao_idade` INT NOT NULL,
   `nome_atividade` VARCHAR(45) NOT NULL,
   `data` DATE NOT NULL,
-  `funcionario_id` INT NOT NULL,
   PRIMARY KEY (`id_atividade`, `funcionario_id`),
 
   CONSTRAINT `fk_Atividades_Funcionarios1`
@@ -213,50 +212,51 @@ values ('M@iones3', 0,'MAZDARX7' ),
 ('BadBoy', 0,'AngelSmurf' ),
 ('Woolly', 1,'WoolySmurf' );
  
- /*Tabela Hóspedes*/
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Stacee', 'Glisenan', '01-09-1986', '607.332.182-77', 'Uganda', 'Genderfluid', 'sglisenan0@mail.ru',1);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Elisa', 'Volette', '06-11-1984', '751.425.013-76', 'Peru', 'Female', 'evolette1@stanford.edu',2);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Maxwell', 'Haycraft', '16-02-1977', '316.149.686-40', 'Brazil', 'Male', 'mhaycraft2@wikispaces.com',3);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Gussy', 'Fries', '26-10-2003', '395.415.201-14', 'China', 'Female', 'gfries3@stumbleupon.com',4);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Duff', 'Mungham', '21-09-2023', '805.097.764-25', 'Philippines', 'Male', 'dmungham4@histats.com',5);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Kristo', 'Honnan', '21-02-2019', '636.015.493-06', 'Mongolia', 'Male', 'khonnan5@ovh.net',6);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Teodoor', 'Skeels', '23-05-2008', '421.381.619-25', 'Sweden', 'Male', 'tskeels6@themeforest.net',7);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Malachi', 'Barnewille', '14-04-1999', '427.559.825-55', 'France', 'Male', 'mbarnewille7@newyorker.com',8);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Wallis', 'Bree', '15-12-1990', '636.068.749-13', 'Norway', 'Female', 'wbree8@instagram.com',9);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Marius', 'Bratton', '31-10-1994', '298.583.262-13', 'Brazil', 'Male', 'mbratton9@mashable.com',10);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Obadiah', 'Aylesbury', '14-04-2017', '129.346.434-18', 'China', 'Male', 'oaylesburya@europa.eu',11);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Wright', 'Alkin', '19-09-1980', '949.735.668-02', 'Yemen', 'Male', 'walkinb@surveymonkey.com',12);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Rikki', 'Youson', '10-06-1994', '833.407.132-18', 'Thailand', 'Male', 'ryousonc@vk.com',13);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Benedicto', 'Hodgin', '16-12-1970', '198.397.145-67', 'Iran', 'Male', 'bhodgind@photobucket.com',14);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Lennie', 'Lembrick', '23-06-1975', '882.476.072-06', 'Pakistan', 'Male', 'llembricke@un.org',15);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Eachelle', 'Gonoude', '26-09-1998', '685.862.163-47', 'China', 'Female', 'egonoudef@is.gd',16);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Freddie', 'Millott', '22-06-2012', '363.678.979-99', 'Greece', 'Female', 'fmillottg@xing.com',17);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Had', 'Babar', '13-08-2015', '269.188.281-56', 'Russia', 'Male', 'hbabarh@addtoany.com',18);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Amanda', 'Harbach', '08-10-1979', '700.716.283-32', 'United States', 'Female', 'aharbachi@google.fr',19);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Lurlene', 'Crampsy', '08-01-1966', '480.398.712-27', 'Bosnia and Herzegovina', 'Female', 'lcrampsyj@tiny.cc',20);
+
+/*Tabela Hóspedes*/
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Stacee', 'Glisenan', '1986-09-01', '607.332.182-77', 'Uganda', 'Genderfluid', 'sglisenan0@mail.ru',1);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Elisa', 'Volette', '1984-11-06', '751.425.013-76', 'Peru', 'Female', 'evolette1@stanford.edu',2);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Maxwell', 'Haycraft', '1977-02-16', '316.149.686-40', 'Brazil', 'Male', 'mhaycraft2@wikispaces.com',3);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Gussy', 'Fries', '2003-10-16', '395.415.201-14', 'China', 'Female', 'gfries3@stumbleupon.com',4);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Duff', 'Mungham', '2023-09-21', '805.097.764-25', 'Philippines', 'Male', 'dmungham4@histats.com',5);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Kristo', 'Honnan', '2019-02-21', '636.015.493-06', 'Mongolia', 'Male', 'khonnan5@ovh.net',6);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Teodoor', 'Skeels', '2008-05-23', '421.381.619-25', 'Sweden', 'Male', 'tskeels6@themeforest.net',7);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Malachi', 'Barnewille', '1999-04-14', '427.559.825-55', 'France', 'Male', 'mbarnewille7@newyorker.com',8);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Wallis', 'Bree', '1990-12-15', '636.068.749-13', 'Norway', 'Female', 'wbree8@instagram.com',9);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Marius', 'Bratton', '1994-10-31', '298.583.262-13', 'Brazil', 'Male', 'mbratton9@mashable.com',10);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Obadiah', 'Aylesbury', '2017-04-14', '129.346.434-18', 'China', 'Male', 'oaylesburya@europa.eu',11);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Wright', 'Alkin', '1980-09-19', '949.735.668-02', 'Yemen', 'Male', 'walkinb@surveymonkey.com',12);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Rikki', 'Youson', '1994-06-10', '833.407.132-18', 'Thailand', 'Male', 'ryousonc@vk.com',13);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Benedicto', 'Hodgin', '1970-12-16', '198.397.145-67', 'Iran', 'Male', 'bhodgind@photobucket.com',14);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Lennie', 'Lembrick', '1975-06-23', '882.476.072-06', 'Pakistan', 'Male', 'llembricke@un.org',15);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Eachelle', 'Gonoude', '1998-09-26', '685.862.163-47', 'China', 'Female', 'egonoudef@is.gd',16);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Freddie', 'Millott', '2012-06-22', '363.678.979-99', 'Greece', 'Female', 'fmillottg@xing.com',17);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Had', 'Babar', '2015-08-13', '269.188.281-56', 'Russia', 'Male', 'hbabarh@addtoany.com',18);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Amanda', 'Harbach', '1979-10-08', '700.716.283-32', 'United States', 'Female', 'aharbachi@google.fr',19);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Lurlene', 'Crampsy', '1966-01-08', '480.398.712-27', 'Bosnia and Herzegovina', 'Female', 'lcrampsyj@tiny.cc',20);
 
 /*Tabela funcionarios*/
 
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Gerry', 'Delucia', 'Camareiro', '$9526.14');
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Editha', 'Stede', 'Zeladora', '$9016.38');
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Agosto', 'Franchyonok', 'Zelador', '$7291.94');
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Giselbert', 'Duthy', 'Faxineira', '$5890.71');
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('L;urette', 'Smalridge', 'camareira', '$6530.11');
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Kym', 'Wakerley', 'Zeladora', '$1477.57');
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Aymer', 'Tunbridge', 'Recepcionista', '$5917.57');
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Lindie', 'Kaygill', 'Jardineira', '$8184.42');
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Suzi', 'Rickarsey', 'Jardineira Specialist IV', '$4905.58');
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Jonell', 'Devine', 'Garçom', '$2276.33');
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Mae', 'McNess', 'Garçom', '$9164.21');
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Moishe', 'McCrea', 'Secretário', '$6212.93');
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Winny', 'Butterworth', 'Secretário', '$2643.54');
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Wynn', 'MacAllester', 'Gerente', '$9734.61');
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Charmaine', 'Chilcott', 'camareira', '$3291.06');
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Hortense', 'Dwyr', 'Diarista', '$7856.25');
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Chadwick', 'Ewen', 'Faxineiro', '$7086.47');
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Tally', 'Liffe', 'Diarista', '$5948.04');
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Letisha', 'Huggon', 'Diarista', '$9692.93');
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Mose', 'Jozwicki', 'Diarista', '$2530.39');
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Gerry', 'Delucia', 'Camareiro', 9526.14);
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Editha', 'Stede', 'Zeladora', 9016.38);
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Agosto', 'Franchyonok', 'Zelador', 7291.94);
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Giselbert', 'Duthy', 'Faxineira', 5890.71);
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('L;urette', 'Smalridge', 'camareira', 6530.11);
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Kym', 'Wakerley', 'Zeladora', 1477.57);
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Aymer', 'Tunbridge', 'Recepcionista', 5917.57);
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Lindie', 'Kaygill', 'Jardineira', 8184.42);
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Suzi', 'Rickarsey', 'Jardineira Specialist IV', 4905.58);
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Jonell', 'Devine', 'Garçom', 2276.33);
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Mae', 'McNess', 'Garçom', 9164.21);
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Moishe', 'McCrea', 'Secretário', 6212.93);
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Winny', 'Butterworth', 'Secretário', 2643.54);
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Wynn', 'MacAllester', 'Gerente', 9734.61);
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Charmaine', 'Chilcott', 'camareira', 3291.06);
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Hortense', 'Dwyr', 'Diarista', 7856.25);
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Chadwick', 'Ewen', 'Faxineiro', 7086.47);
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Tally', 'Liffe', 'Diarista', 5948.04);
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Letisha', 'Huggon', 'Diarista', 9692.93);
+insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Mose', 'Jozwicki', 'Diarista', 2530.39);
 
 /*Tabela Quartos*/
 
@@ -466,43 +466,43 @@ SELECT * FROM servicos_consumidos INNER JOIN Hospede ON servicos_consumidos.id_h
 
 /*Update funcionarios*/
 update Funcionarios
-set nome = 'Miguel', sobrenome = 'Almeida', funcao = 'Zelador', salario = '$9016.38'
+set nome = 'Miguel', sobrenome = 'Almeida', funcao = 'Zelador', salario = 9016.38
 where id_atividade 1;
 update Funcionarios
-set nome = 'Junior', sobrenome = 'Silva', funcao = 'Camareiro', salario = '$9526.14'
+set nome = 'Junior', sobrenome = 'Silva', funcao = 'Camareiro', salario = 9526.14
 where id_atividade 2;
 update Funcionarios
-set nome = 'Marcos', sobrenome = 'Silva', funcao = 'Recepcionista', salario = '$5890.71'
+set nome = 'Marcos', sobrenome = 'Silva', funcao = 'Recepcionista', salario = 5890.71
 where id_atividade 3;
 update Funcionarios
-set nome = 'Romario', sobrenome = 'Mendes', funcao = 'Recepcionista', salario = '$5890.71'
+set nome = 'Romario', sobrenome = 'Mendes', funcao = 'Recepcionista', salario = 5890.71
 where id_atividade 4;
 update Funcionarios
-set nome = 'Lucas', sobrenome = 'Oliveira', funcao = 'Diarista', salario = '$6212.93'
+set nome = 'Lucas', sobrenome = 'Oliveira', funcao = 'Diarista', salario = 6212.93
 where id_atividade 5;
 update Funcionarios
-set nome = 'Sabrina', sobrenome = 'Lima', funcao = 'Secretaria', salario = '$6232.93'
+set nome = 'Sabrina', sobrenome = 'Lima', funcao = 'Secretaria', salario = 6232.93
 where id_atividade 6;
 update Funcionarios
-set nome = 'Ana', sobrenome = 'Amaral', funcao = 'Gerente', salario = '$9734.61'
+set nome = 'Ana', sobrenome = 'Amaral', funcao = 'Gerente', salario = 9734.61
 where id_atividade 7;
 update Funcionarios
-set nome = 'Rosalia', sobrenome = 'Helena', funcao = 'Jardineira', salario = '$3400.61'
+set nome = 'Rosalia', sobrenome = 'Helena', funcao = 'Jardineira', salario = 3400.61
 where id_atividade 8;
 update Funcionarios
-set nome = 'lucio', sobrenome = 'Carvalho', funcao = 'Faxineiro', salario = '$4500.43'
+set nome = 'lucio', sobrenome = 'Carvalho', funcao = 'Faxineiro', salario = 4500.43
 where id_atividade 9;
 update Funcionarios
-set nome = 'Maria', sobrenome = 'Eliza', funcao = 'Recepcionista', salario = '$6200.23'
+set nome = 'Maria', sobrenome = 'Eliza', funcao = 'Recepcionista', salario = 6200.23
 where id_atividade 10;
 
 
 /*Update Servicos*/
 update Servicos
-set preco_servicos= 250, nome_servicos='aula de boxe'
+set preco_servicos= 250.00, nome_servicos='aula de boxe'
 where id_servico=1;
 update Servicos
-set preco_servicos= 10, nome_servicos='prato do dia'
+set preco_servicos= 10.00, nome_servicos='prato do dia'
 where id_servico=11;
 update Servicos
 set preco_servicos= 157.09, nome_servicos='aula de capoeira'
@@ -517,16 +517,16 @@ update Servicos
 set preco_servicos= 111.11, nome_servicos='aula de karatê'
 where id_servico=5;
 update Servicos
-set preco_servicos= 250, nome_servicos='aula de kickbox'
+set preco_servicos= 250.00, nome_servicos='aula de kickbox'
 where id_servico=9;
 update Servicos
-set preco_servicos= 250, nome_servicos='piscina'
+set preco_servicos= 250.00, nome_servicos='piscina'
 where id_servico=7;
 update Servicos
-set preco_servicos= 132, nome_servicos='sauna'
+set preco_servicos= 132.00, nome_servicos='sauna'
 where id_servico=19;
 update Servicos
-set preco_servicos= 250, nome_servicos='bugy'
+set preco_servicos= 250.00, nome_servicos='bugy'
 where id_servico=20;
 
 /*Update Hospedagens*/
