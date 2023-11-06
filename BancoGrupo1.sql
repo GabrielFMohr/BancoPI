@@ -188,52 +188,52 @@ CREATE TABLE  IF NOT EXISTS `ATIVIDADES_HOSPEDE` (
 /*Tabela Usuarios*/
 
 insert into USUARIOS ( senha, nivel_de_acesso, login)
-values ("M@iones3", 0,"MAZDARX7" ),
-("eido", 0,"Cralos Ícaro" ),
-("Geromel", 1,"Andrei" ),
-("macaco", 0,"Mico" ),
-("blaze", 1,"FelipeNeto" ),
-("Azul", 1,"Smurfette" ),
-("Gorro", 1,"PapaSmurf" ),
-("Azar", 0,"Desastrado" ),
-("Bobo", 1,"Joca" ),
-("Forte", 0,"Robusto" ),
-("Ruiva", 1,"Sassette" ),
-("Burro", 1,"Gênio" ),
-("Feliz", 0,"Ranzinza" ),
-("Horrível", 1,"Habilidoso" ),
-("Bonitão", 0,"Vaidoso" ),
-("Véio", 0,"VovôSmurf" ),
-("Bonzinho", 1,"DevilSmurf" ),
-("Bom", 0,"Tuffy" ),
-("Rastreio", 1,"Caçador" ),
-("Véia", 1,"VovóSmurf" ),
-("AgroBoy", 1,"Fazendeiro" ),
-("Pedreiro", 1,"TimberSmurf" ),
-("BadBoy", 0,"AngelSmurf" ),
-("Woolly", 1,"WoolySmurf" );
+values ('M@iones3', 0,'MAZDARX7' ),
+('eido', 0,'Cralos Ícaro' ),
+('Geromel', 1,'Andrei' ),
+('macaco', 0,'Mico' ),
+('blaze', 1,'FelipeNeto' ),
+('Azul', 1,'Smurfette' ),
+('Gorro', 1,'PapaSmurf' ),
+('Azar', 0,'Desastrado' ),
+('Bobo', 1,'Joca' ),
+('Forte', 0,'Robusto' ),
+('Ruiva', 1,'Sassette' ),
+('Burro', 1,'Gênio' ),
+('Feliz', 0,'Ranzinza' ),
+('Horrível', 1,'Habilidoso' ),
+('Bonitão', 0,'Vaidoso' ),
+('Véio', 0,'VovôSmurf' ),
+('Bonzinho', 1,'DevilSmurf' ),
+('Bom', 0,'Tuffy' ),
+('Rastreio', 1,'Caçador' ),
+('Véia', 1,'VovóSmurf' ),
+('AgroBoy', 1,'Fazendeiro' ),
+('Pedreiro', 1,'TimberSmurf' ),
+('BadBoy', 0,'AngelSmurf' ),
+('Woolly', 1,'WoolySmurf' );
  
  /*Tabela Hóspedes*/
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Stacee', 'Glisenan', '01-09-1986', 60733218277, 'Uganda', 'Genderfluid', 'sglisenan0@mail.ru',1);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Elisa', 'Volette', '06-11-1984', 75142501376, 'Peru', 'Female', 'evolette1@stanford.edu',2);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Maxwell', 'Haycraft', '16-02-1977', 31614968640, 'Brazil', 'Male', 'mhaycraft2@wikispaces.com',3);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Gussy', 'Fries', '26-10-2003', 39541520114, 'China', 'Female', 'gfries3@stumbleupon.com',4);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Duff', 'Mungham', '21-09-2023', 80509776425, 'Philippines', 'Male', 'dmungham4@histats.com',5);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Kristo', 'Honnan', '21-02-2019', 63601549306, 'Mongolia', 'Male', 'khonnan5@ovh.net',6);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Teodoor', 'Skeels', '23-05-2008', 42138161925, 'Sweden', 'Male', 'tskeels6@themeforest.net',7);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Malachi', 'Barnewille', '14-04-1999', 42755982555, 'France', 'Male', 'mbarnewille7@newyorker.com',8);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Wallis', 'Bree', '15-12-1990', 63606874913, 'Norway', 'Female', 'wbree8@instagram.com',9);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Marius', 'Bratton', '31-10-1994', 29858326213, 'Brazil', 'Male', 'mbratton9@mashable.com',10);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Obadiah', 'Aylesbury', '14-04-2017', 12934643418, 'China', 'Male', 'oaylesburya@europa.eu',11);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Wright', 'Alkin', '19-09-1980', 94973566802, 'Yemen', 'Male', 'walkinb@surveymonkey.com',12);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Rikki', 'Youson', '10-06-1994', 83340713218, 'Thailand', 'Male', 'ryousonc@vk.com',13);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Benedicto', 'Hodgin', '16-12-1970', 19839714567, 'Iran', 'Male', 'bhodgind@photobucket.com',14);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Lennie', 'Lembrick', '23-06-1975', 88247607206, 'Pakistan', 'Male', 'llembricke@un.org',15);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Eachelle', 'Gonoude', '26-09-1998', 68586216347, 'China', 'Female', 'egonoudef@is.gd',16);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Freddie', 'Millott', '22-06-2012', 36367897999, 'Greece', 'Female', 'fmillottg@xing.com',17);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Had', 'Babar', '13-08-2015', 26918828156, 'Russia', 'Male', 'hbabarh@addtoany.com',18);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Amanda', 'Harbach', '08-10-1979', 70071628332, 'United States', 'Female', 'aharbachi@google.fr',19);
-insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Lurlene', 'Crampsy', '08-01-1966', 48039871227, 'Bosnia and Herzegovina', 'Female', 'lcrampsyj@tiny.cc',20);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Stacee', 'Glisenan', '01-09-1986', '607.332.182-77', 'Uganda', 'Genderfluid', 'sglisenan0@mail.ru',1);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Elisa', 'Volette', '06-11-1984', '751.425.013-76', 'Peru', 'Female', 'evolette1@stanford.edu',2);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Maxwell', 'Haycraft', '16-02-1977', '316.149.686-40', 'Brazil', 'Male', 'mhaycraft2@wikispaces.com',3);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Gussy', 'Fries', '26-10-2003', '395.415.201-14', 'China', 'Female', 'gfries3@stumbleupon.com',4);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Duff', 'Mungham', '21-09-2023', '805.097.764-25', 'Philippines', 'Male', 'dmungham4@histats.com',5);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Kristo', 'Honnan', '21-02-2019', '636.015.493-06', 'Mongolia', 'Male', 'khonnan5@ovh.net',6);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Teodoor', 'Skeels', '23-05-2008', '421.381.619-25', 'Sweden', 'Male', 'tskeels6@themeforest.net',7);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Malachi', 'Barnewille', '14-04-1999', '427.559.825-55', 'France', 'Male', 'mbarnewille7@newyorker.com',8);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Wallis', 'Bree', '15-12-1990', '636.068.749-13', 'Norway', 'Female', 'wbree8@instagram.com',9);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Marius', 'Bratton', '31-10-1994', '298.583.262-13', 'Brazil', 'Male', 'mbratton9@mashable.com',10);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Obadiah', 'Aylesbury', '14-04-2017', '129.346.434-18', 'China', 'Male', 'oaylesburya@europa.eu',11);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Wright', 'Alkin', '19-09-1980', '949.735.668-02', 'Yemen', 'Male', 'walkinb@surveymonkey.com',12);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Rikki', 'Youson', '10-06-1994', '833.407.132-18', 'Thailand', 'Male', 'ryousonc@vk.com',13);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Benedicto', 'Hodgin', '16-12-1970', '198.397.145-67', 'Iran', 'Male', 'bhodgind@photobucket.com',14);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Lennie', 'Lembrick', '23-06-1975', '882.476.072-06', 'Pakistan', 'Male', 'llembricke@un.org',15);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Eachelle', 'Gonoude', '26-09-1998', '685.862.163-47', 'China', 'Female', 'egonoudef@is.gd',16);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Freddie', 'Millott', '22-06-2012', '363.678.979-99', 'Greece', 'Female', 'fmillottg@xing.com',17);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Had', 'Babar', '13-08-2015', '269.188.281-56', 'Russia', 'Male', 'hbabarh@addtoany.com',18);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Amanda', 'Harbach', '08-10-1979', '700.716.283-32', 'United States', 'Female', 'aharbachi@google.fr',19);
+insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, email,id_usuario) values ('Lurlene', 'Crampsy', '08-01-1966', '480.398.712-27', 'Bosnia and Herzegovina', 'Female', 'lcrampsyj@tiny.cc',20);
 
 /*Tabela funcionarios*/
 
@@ -496,7 +496,6 @@ update Funcionarios
 set nome = 'Maria', sobrenome = 'Eliza', funcao = 'Recepcionista', salario = '$6200.23'
 where id_atividade 10;
 
->>>>>>> Stashed changes
 
 /*Update Servicos*/
 update Servicos
@@ -564,25 +563,25 @@ where  hospedagens_id = 10;
 
 /*Update Usuários*/
 update Usuarios
-set senha = '12345',nivel_de_acesso = 1, login="Roncas"
+set senha = '12345',nivel_de_acesso = 1, login='Roncas'
 where  id_usuario = 1;
-set senha = '67891',nivel_de_acesso = 0, login="Bernas"
+set senha = '67891',nivel_de_acesso = 0, login='Bernas'
 where  id_usuario = 2;
-set senha = '101112',nivel_de_acesso = 1, login="Andras"
+set senha = '101112',nivel_de_acesso = 1, login='Andras'
 where  id_usuario = 3;
-set senha = '126890',nivel_de_acesso = 1, login="Luigigigie"
+set senha = '126890',nivel_de_acesso = 1, login='Luigigigie'
 where  id_usuario = 4;
-set senha = '61701',nivel_de_acesso = 0, login= "Muliro"
+set senha = '61701',nivel_de_acesso = 0, login= 'Muliro'
 where  id_usuario = 5;
-set senha = '01234',nivel_de_acesso = 1, login="Gagas"
+set senha = '01234',nivel_de_acesso = 1, login='Gagas'
 where  id_usuario = 6;
-set senha = '901890',nivel_de_acesso = 1, login="Gustas"
+set senha = '901890',nivel_de_acesso = 1, login='Gustas'
 where  id_usuario = 7;
-set senha = '448768',nivel_de_acesso = 1, login="Kakas"
+set senha = '448768',nivel_de_acesso = 1, login='Kakas'
 where  id_usuario = 8;
-set senha = '48765',nivel_de_acesso = 1, login="Charlão"
+set senha = '48765',nivel_de_acesso = 1, login='Charlão'
 where  id_usuario = 9;
-set senha = '4165',nivel_de_acesso = 1, login="Clóvis"
+set senha = '4165',nivel_de_acesso = 1, login='Clóvis'
 where  id_usuario = 10;
 
 
