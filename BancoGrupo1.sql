@@ -262,26 +262,26 @@ insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, e
 
 /*Tabela funcionarios*/
 
-insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Gerry', 'Delucia', 'Camareiro', 9526.14, 1);
-insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Editha', 'Stede', 'Zeladora', 9016.38, 2);
-insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Agosto', 'Franchyonok', 'Zelador', 7291.94, 3);
-insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Giselbert', 'Duthy', 'Faxineira', 5890.71, 4);
-insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('L;urette', 'Smalridge', 'camareira', 6530.11, 5);
-insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Kym', 'Wakerley', 'Zeladora', 1477.57, 6);
-insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Aymer', 'Tunbridge', 'Recepcionista', 5917.57, 7);
-insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Lindie', 'Kaygill', 'Jardineira', 8184.42, 20);
-insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Suzi', 'Rickarsey', 'Jardineira Specialist IV', 4905.58, 8);
-insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Jonell', 'Devine', 'Garçom', 2276.33, 9);
-insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Mae', 'McNess', 'Garçom', 9164.21, 19);
-insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Moishe', 'McCrea', 'Secretário', 6212.93, 10);
-insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Winny', 'Butterworth', 'Secretário', 2643.54, 11);
-insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Wynn', 'MacAllester', 'Gerente', 9734.61, 12);
-insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Charmaine', 'Chilcott', 'camareira', 3291.06, 13);
-insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Hortense', 'Dwyr', 'Diarista', 7856.25, 14);
-insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Chadwick', 'Ewen', 'Faxineiro', 7086.47, 15);
-insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Tally', 'Liffe', 'Diarista', 5948.04, 16);
-insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Letisha', 'Huggon', 'Diarista', 9692.93, 17);
-insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Mose', 'Jozwicki', 'Diarista', 2530.39, 18);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Gerry', 'Delucia', 'Camareiro', 9526.14, 21);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Editha', 'Stede', 'Zeladora', 9016.38, 22);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Agosto', 'Franchyonok', 'Zelador', 7291.94, 23);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Giselbert', 'Duthy', 'Faxineira', 5890.71, 24);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('L;urette', 'Smalridge', 'camareira', 6530.11, 25);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Kym', 'Wakerley', 'Zeladora', 1477.57, 26);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Aymer', 'Tunbridge', 'Recepcionista', 5917.57, 27);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Lindie', 'Kaygill', 'Jardineira', 8184.42, 28);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Suzi', 'Rickarsey', 'Jardineira Specialist IV', 4905.58, 29);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Jonell', 'Devine', 'Garçom', 2276.33, 30);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Mae', 'McNess', 'Garçom', 9164.21, 31);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Moishe', 'McCrea', 'Secretário', 6212.93, 32);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Winny', 'Butterworth', 'Secretário', 2643.54, 33);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Wynn', 'MacAllester', 'Gerente', 9734.61, 34);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Charmaine', 'Chilcott', 'camareira', 3291.06, 35);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Hortense', 'Dwyr', 'Diarista', 7856.25, 36);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Chadwick', 'Ewen', 'Faxineiro', 7086.47, 37);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Tally', 'Liffe', 'Diarista', 5948.04, 38);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Letisha', 'Huggon', 'Diarista', 9692.93, 39);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Mose', 'Jozwicki', 'Diarista', 2530.39, 40);
 
 /*Tabela Quartos*/
 
@@ -332,26 +332,26 @@ insert into Hospedagens (checkin, checkout) values ('2022-02-07', '2023-05-30');
 
 /*Tabela Atividades */
 
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('8:08 AM', '10:05 AM', 9, 'Passeio a cavalo com guia', '2023-09-02');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('9:10 AM', '4:55 AM', 4, 'Passeio de buggy', '2022-07-27');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('10:57 AM', '11:59 AM', 12, 'Pesca', '2022-09-23');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('11:20 AM', '12:56 AM', 4, 'Trilha de offroad 4x4', '2023-10-01');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('6:41 AM', '10:00 AM', 15, 'Trilha a pé com guia', '2023-12-07');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('9:40 AM', '10:27 AM', 7, 'Alpinismo', '2022-10-27');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('10:03 AM', '4:06 AM', 15, 'Surf', '2023-12-20');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('11:15 AM', '6:37 AM', 10, 'Natação', '2022-08-13');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('8:17 AM', '2:32 AM', 11, 'Futebol', '2023-01-19');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('9:55 AM', '11:47 AM', 12, 'Vôlei', '2022-08-09');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('11:12 AM', '1:06 AM', 4, 'Hipismo', '2023-09-21');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('10:03 AM', '1:37 AM', 14, 'Luau', '2022-02-06');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('11:08 AM', '2:46 AM', 15, 'Yoga', '2023-06-28');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('10:40 AM', '8:08 AM', 8, 'Oficina de artesanato', '2022-11-29');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('7:45 AM', '6:54 AM', 13, 'Oficina de jardinagem', '2023-01-18');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('9:24 AM', '9:55 AM', 14, 'Caça ao tesouro', '2023-02-06');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('10:31 AM', '5:12 AM', 6, 'Passeio de trator', '2022-11-27');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('7:09 AM', '1:52 AM', 18, 'Visita ao mirante', '2022-05-23');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('11:07 AM', '9:40 AM', 17, 'Teatro ao ar livre', '2022-11-01');
-insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data) values ('11:36 AM', '1:20 AM', 16, 'Pratica de cerâmica com guia', '2022-08-17');
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data, funcionario_id) values ('8:08 AM', '10:05 AM', 9, 'Passeio a cavalo com guia', '2023-09-02', 1);
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data, funcionario_id) values ('9:10 AM', '4:55 AM', 4, 'Passeio de buggy', '2022-07-27', 2);
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data, funcionario_id) values ('10:57 AM', '11funcionario_id:59 AM', 12, 'Pesca', '2022-09-23', 3);
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data, funcionario_id) values ('11:20 AM', '12:56 AM', 4, 'Trilha de offroad 4x4', '2023-10-01', 4);
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data, funcionario_id) values ('6:41 AM', '10:00 AM', 15, 'Trilha a pé com guia', '2023-12-07', 5);
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data, funcionario_id) values ('9:40 AM', '10:27 AM', 7, 'Alpinismo', '2022-10-27', 6);
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data, funcionario_id) values ('10:03 AM', '4:06 AM', 15, 'Surf', '2023-12-20', 7);
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data, funcionario_id) values ('11:15 AM', '6:37 AM', 10, 'Natação', '2022-08-13', 8);
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data, funcionario_id) values ('8:17 AM', '2:32 AM', 11, 'Futebol', '2023-01-19', 9);
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data, funcionario_id) values ('9:55 AM', '11:47 AM', 12, 'Vôlei', '2022-08-09', 10);
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data, funcionario_id) values ('11:12 AM', '1:06 AM', 4, 'Hipismo', '2023-09-21', 11);
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data, funcionario_id) values ('10:03 AM', '1:37 AM', 14, 'Luau', '2022-02-06', 12);
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data, funcionario_id) values ('11:08 AM', '2:46 AM', 15, 'Yoga', '2023-06-28', 13);
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data, funcionario_id) values ('10:40 AM', '8:08 AM', 8, 'Oficina de artesanato', '2022-11-29', 14);
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data, funcionario_id) values ('7:45 AM', '6:54 AM', 13, 'Oficina de jardinagem', '2023-01-18', 15);
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data, funcionario_id) values ('9:24 AM', '9:55 AM', 14, 'Caça ao tesouro', '2023-02-06', 16);
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data, funcionario_id) values ('10:31 AM', '5:12 AM', 6, 'Passeio de trator', '2022-11-27', 17);
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data, funcionario_id) values ('7:09 AM', '1:52 AM', 18, 'Visita ao mirante', '2022-05-23', 18);
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data, funcionario_id) values ('11:07 AM', '9:40 AM', 17, 'Teatro ao ar livre', '2022-11-01', 19);
+insert into Atividades (horario, horario_fim, restricao_idade, nome_atividade, data, funcionario_id) values ('11:36 AM', '1:20 AM', 16, 'Pratica de cerâmica com guia', '2022-08-17', 20);
 
 /*Tabela Servicos*/
 
