@@ -190,7 +190,7 @@ insert into USUARIOS ( senha, nivel_de_acesso, login)
 values ('M@iones3', 0,'MAZDARX7' ),
 ('eido', 0,'Cralos Ícaro' ),
 ('Geromel', 1,'Andrei' ),
-('macaco', 0,'Mico' ),
+('Bernas', 0,'Mico' ),
 ('blaze', 1,'FelipeNeto' ),
 ('Azul', 1,'Smurfette' ),
 ('Gorro', 1,'PapaSmurf' ),
