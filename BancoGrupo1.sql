@@ -854,43 +854,43 @@ where id_hospede_atividade=10;
 
 /*update Hospede*/
 
-Update Hospede
+Update Hospedes
 set nome = 'Jorge', sobrenome = 'Oliveira', data_nasc = '2000-03-03', CPF = '111.222.333-44', Nacionalidade = 'Brasileiro', Pronome = 'Ele/dele', email = 'jorge013@gmail.com', id_usuario = 1
 where  Hospede_id = 1;
 
-Update Hospede
+Update Hospedes
 set nome = 'João', sobrenome = 'Souza', data_nasc = '2001-02-07', Nacionalidade = 'Americano', Pronome = 'Ele/dele', email = 'joaop12@gmail.com', id_usuario = 2
 where  Hospede_id = 2;
 
-Update Hospede
+Update Hospedes
 set nome = 'Maria', sobrenome = 'Rocha', data_nasc = '2002-11-11', CPF = '111.222.333-41', Nacionalidade = 'Brasileiro', Pronome = 'Ela/dela', email = 'maria222@gmail.com', id_usuario = 3
 where  Hospede_id = 3;
 
-Update Hospede
+Update Hospedes
 set nome = 'Andrei', sobrenome = 'Amaral', data_nasc = '2003-09-17', Nacionalidade = 'Americano', Pronome = 'Ele/dele', email = 'AndreiAm@gmail.com', id_usuario = 4
 where  Hospede_id = 4;
 
-Update Hospede
+Update Hospedes
 set nome = 'Gustavo', sobrenome = 'Luiz', data_nasc = '2004-12-22', CPF = '111.222.333-45', Nacionalidade = 'Brasileiro', Pronome = 'Ele/dele', email = 'gusta942@gmail.com', id_usuario = 5
 where  Hospede_id = 5;
 
-Update Hospede
+Update Hospedes
 set nome = 'Bernardo', sobrenome = 'Oliveira', data_nasc = '2001-01-26', CPF = '111.222.333-46', Nacionalidade = 'Brasileiro', Pronome = 'Ele/dele', email = 'be.d0aa@gmail.com', id_usuario = 6
 where  Hospede_id = 6;
 
-Update Hospede
+Update Hospedes
 set nome = 'Erik', sobrenome = 'Roncaglio', data_nasc = '2005-06-30', CPF = '111.222.333-47', Nacionalidade = 'Brasileiro', Pronome = 'Ele/dele', email = 'erik.r01@gmail.com', id_usuario = 7
 where  Hospede_id = 7;
 
-Update Hospede
+Update Hospedes
 set nome = 'Gabriel', sobrenome = 'Mohr', data_nasc = '2003-04-15', CPF = '111.222.333-48', Nacionalidade = 'Brasileiro', Pronome = 'Ele/dele', email = 'gab328n@gmail.com', id_usuario = 8
 where  Hospede_id = 8;
 
-Update Hospede
+Update Hospedes
 set nome = 'Luigi', sobrenome = 'Scharam', data_nasc = '2002-07-02', CPF = '111.222.333-49', Nacionalidade = 'Brasileiro', Pronome = 'Ele/dele', email = 'luigi23@gmail.com', id_usuario = 9
 where  Hospede_id = 9;
 
-Update Hospede
+Update Hospedes
 set nome = 'Muliro', sobrenome = 'Silveira', data_nasc = '2004-10-18', CPF = '111.222.333-50', Nacionalidade = 'Brasileiro', Pronome = 'Ele/dele', email = 'mulibro248@gmail.com', id_usuario = 10
 where  Hospede_id = 10;
 
