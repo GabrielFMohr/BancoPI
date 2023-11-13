@@ -210,7 +210,32 @@ values ('M@iones3', 0,'MAZDARX7' ),
 ('AgroBoy', 1,'Fazendeiro' ),
 ('Pedreiro', 1,'TimberSmurf' ),
 ('BadBoy', 0,'AngelSmurf' ),
-('Woolly', 1,'WoolySmurf' );
+('Woolly', 1,'WoolySmurf' ),
+('Andras', 0,'fgyuvu' ),
+('João', 0,'Monark' ),
+('Mau', 1,'Ele' ),
+('Pinas', 0,'Gustas' ),
+('Erik', 1,'Roncas' ),
+('Roxo', 1,'William' ),
+('SpringTrap', 1,'Afton' ),
+('Azu', 0,'Marill' ),
+('Kan', 1,'Gaskan' ),
+('Drago', 0,'Nite' ),
+('Stara', 1,'Ptor' ),
+('Burro', 1,'Dragão' ),
+('Ogro', 0,'Shrek' ),
+('Princesa', 1,'Fiona' ),
+('Rei', 0,'Leônidas' ),
+('MelhorCidade', 0,'Esparta' ),
+('Filósofo', 1,'Aristóteles' ),
+('Inteligente', 0,'Newtown' ),
+('Balela', 1,'Zero' ),
+('Cowboy', 1,'JohnMarston' ),
+('RDR2', 1,'ArthurMorgan' ),
+('Mago', 1,'DavyJones' ),
+('Carrara', 0,'Augustinho' ),
+('Only', 1,'Beiçola' );
+ 
  
 
 /*Tabela Hóspedes*/
