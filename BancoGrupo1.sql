@@ -811,43 +811,43 @@ where id_Hospedagem_quartos=10;
 
 /*update Atividades_hospede*/
 
-update Atividades_hospedes
+update Atividades_hospede
 set Hospede_id=1, id_atividade=1
 where id_hospede_atividade=1;
 
-update Atividades_hospedes
+update Atividades_hospede
 set  Hospede_id=2, id_atividade=2
 where id_hospede_atividade=2;
 
-update Atividades_hospedes
+update Atividades_hospede
 set  Hospede_id=3, id_atividade=3
 where id_hospede_atividade=3;
 
-update Atividades_hospedes
+update Atividades_hospede
 set  Hospede_id=4, id_atividade=4
 where id_hospede_atividade=4;
 
-update Atividades_hospedes
+update Atividades_hospede
 set  Hospede_id=5, id_atividade=5
 where id_hospede_atividade=5;
 
-update Atividades_hospedes
+update Atividades_hospede
 set  Hospede_id=6, id_atividade=6
 where id_hospede_atividade=6;
 
-update Atividades_hospedes
+update Atividades_hospede
 set  Hospede_id=7, id_atividade=7
 where id_hospede_atividade=7;
 
-update Atividades_hospedes
+update Atividades_hospede
 set  Hospede_id=8, id_atividade=8
 where id_hospede_atividade=8;
 
-update Atividades_hospedes
+update Atividades_hospede
 set  Hospede_id=9, id_atividade=9
 where id_hospede_atividade=9;
 
-update Atividades_hospedes
+update Atividades_hospede
 set  Hospede_id=10, id_atividade=10
 where id_hospede_atividade=10;
 
