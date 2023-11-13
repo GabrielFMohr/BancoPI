@@ -54,7 +54,7 @@ CREATE TABLE IF NOT EXISTS  `SERVICOS` (
 -- -----------------------------------------------------
 CREATE TABLE  IF NOT EXISTS `HOSPEDAGENS` (
   `Hospedagens_id` INT NOT NULL AUTO_INCREMENT,
-  `chekin` DATE NOT NULL,
+  `checkin` DATE NOT NULL,
   `checkout` DATE NOT NULL,
   PRIMARY KEY (`Hospedagens_id`))
 ;
