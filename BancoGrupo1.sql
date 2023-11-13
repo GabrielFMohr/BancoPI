@@ -237,26 +237,26 @@ insert into Hospedes (nome, sobrenome, data_nasc, CPF, Nacionalidade, Pronome, e
 
 /*Tabela funcionarios*/
 
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Gerry', 'Delucia', 'Camareiro', 9526.14);
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Editha', 'Stede', 'Zeladora', 9016.38);
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Agosto', 'Franchyonok', 'Zelador', 7291.94);
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Giselbert', 'Duthy', 'Faxineira', 5890.71);
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('L;urette', 'Smalridge', 'camareira', 6530.11);
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Kym', 'Wakerley', 'Zeladora', 1477.57);
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Aymer', 'Tunbridge', 'Recepcionista', 5917.57);
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Lindie', 'Kaygill', 'Jardineira', 8184.42);
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Suzi', 'Rickarsey', 'Jardineira Specialist IV', 4905.58);
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Jonell', 'Devine', 'Garçom', 2276.33);
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Mae', 'McNess', 'Garçom', 9164.21);
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Moishe', 'McCrea', 'Secretário', 6212.93);
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Winny', 'Butterworth', 'Secretário', 2643.54);
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Wynn', 'MacAllester', 'Gerente', 9734.61);
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Charmaine', 'Chilcott', 'camareira', 3291.06);
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Hortense', 'Dwyr', 'Diarista', 7856.25);
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Chadwick', 'Ewen', 'Faxineiro', 7086.47);
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Tally', 'Liffe', 'Diarista', 5948.04);
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Letisha', 'Huggon', 'Diarista', 9692.93);
-insert into Funcionarios (nome, sobrenome, funcao, salario) values ('Mose', 'Jozwicki', 'Diarista', 2530.39);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Gerry', 'Delucia', 'Camareiro', 9526.14, 1);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Editha', 'Stede', 'Zeladora', 9016.38, 2);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Agosto', 'Franchyonok', 'Zelador', 7291.94, 3);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Giselbert', 'Duthy', 'Faxineira', 5890.71, 4);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('L;urette', 'Smalridge', 'camareira', 6530.11, 5);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Kym', 'Wakerley', 'Zeladora', 1477.57, 6);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Aymer', 'Tunbridge', 'Recepcionista', 5917.57, 7);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Lindie', 'Kaygill', 'Jardineira', 8184.42, 20);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Suzi', 'Rickarsey', 'Jardineira Specialist IV', 4905.58, 8);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Jonell', 'Devine', 'Garçom', 2276.33, 9);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Mae', 'McNess', 'Garçom', 9164.21, 19);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Moishe', 'McCrea', 'Secretário', 6212.93, 10);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Winny', 'Butterworth', 'Secretário', 2643.54, 11);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Wynn', 'MacAllester', 'Gerente', 9734.61, 12);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Charmaine', 'Chilcott', 'camareira', 3291.06, 13);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Hortense', 'Dwyr', 'Diarista', 7856.25, 14);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Chadwick', 'Ewen', 'Faxineiro', 7086.47, 15);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Tally', 'Liffe', 'Diarista', 5948.04, 16);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Letisha', 'Huggon', 'Diarista', 9692.93, 17);
+insert into Funcionarios (nome, sobrenome, funcao, salario, id_usuario) values ('Mose', 'Jozwicki', 'Diarista', 2530.39, 18);
 
 /*Tabela Quartos*/
 
