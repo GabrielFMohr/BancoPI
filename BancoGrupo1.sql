@@ -482,7 +482,7 @@ SELECT * FROM Funcionarios INNER JOIN Atividades ON Funcionarios.funcionario_id 
 
 SELECT * FROM Usuarios INNER JOIN Hospedes ON usuario.id_usuario = Hospedes.id_usuario;
 
-SELECT * FROM Atividade_hospede INNER JOIN Hospede ON Atividades_hospede.Hospede_id = Hospedes.Hospedes_id INNER JOIN Atividades ON Atividades_hospede.id_atividade = Atividades.id_atividade;
+SELECT * FROM Atividades_hospede INNER JOIN Hospede ON Atividades_hospede.Hospede_id = Hospedes.Hospedes_id INNER JOIN Atividades ON Atividades_hospede.id_atividade = Atividades.id_atividade;
 
 SELECT * FROM Hospedagens INNER JOIN Hospedes ON Hospedagens.Hospede_id = Hospedes.Hospede_id;
 
