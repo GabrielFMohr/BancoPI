@@ -467,34 +467,34 @@ SELECT * FROM servicos_consumidos INNER JOIN Hospede ON servicos_consumidos.id_h
 /*Update funcionarios*/
 update Funcionarios
 set nome = 'Miguel', sobrenome = 'Almeida', funcao = 'Zelador', salario = 9016.38
-where id_atividade 1;
+where id_atividade=1;
 update Funcionarios
 set nome = 'Junior', sobrenome = 'Silva', funcao = 'Camareiro', salario = 9526.14
-where id_atividade 2;
+where id_atividade=2;
 update Funcionarios
 set nome = 'Marcos', sobrenome = 'Silva', funcao = 'Recepcionista', salario = 5890.71
-where id_atividade 3;
+where id_atividade=3;
 update Funcionarios
 set nome = 'Romario', sobrenome = 'Mendes', funcao = 'Recepcionista', salario = 5890.71
-where id_atividade 4;
+where id_atividade=4;
 update Funcionarios
 set nome = 'Lucas', sobrenome = 'Oliveira', funcao = 'Diarista', salario = 6212.93
-where id_atividade 5;
+where id_atividade=5;
 update Funcionarios
 set nome = 'Sabrina', sobrenome = 'Lima', funcao = 'Secretaria', salario = 6232.93
-where id_atividade 6;
+where id_atividade=6;
 update Funcionarios
 set nome = 'Ana', sobrenome = 'Amaral', funcao = 'Gerente', salario = 9734.61
-where id_atividade 7;
+where id_atividade=7;
 update Funcionarios
 set nome = 'Rosalia', sobrenome = 'Helena', funcao = 'Jardineira', salario = 3400.61
-where id_atividade 8;
+where id_atividade=8;
 update Funcionarios
 set nome = 'lucio', sobrenome = 'Carvalho', funcao = 'Faxineiro', salario = 4500.43
-where id_atividade 9;
+where id_atividade=9;
 update Funcionarios
 set nome = 'Maria', sobrenome = 'Eliza', funcao = 'Recepcionista', salario = 6200.23
-where id_atividade 10;
+where id_atividade=10;
 
 
 /*Update Servicos*/
@@ -565,22 +565,31 @@ where  hospedagens_id = 10;
 update Usuarios
 set senha = '12345',nivel_de_acesso = 1, login='Roncas'
 where  id_usuario = 1;
+update Usuarios
 set senha = '67891',nivel_de_acesso = 0, login='Bernas'
 where  id_usuario = 2;
+update Usuarios
 set senha = '101112',nivel_de_acesso = 1, login='Andras'
 where  id_usuario = 3;
+update Usuarios
 set senha = '126890',nivel_de_acesso = 1, login='Luigigigie'
 where  id_usuario = 4;
+update Usuarios
 set senha = '61701',nivel_de_acesso = 0, login= 'Muliro'
 where  id_usuario = 5;
+update Usuarios
 set senha = '01234',nivel_de_acesso = 1, login='Gagas'
 where  id_usuario = 6;
+update Usuarios
 set senha = '901890',nivel_de_acesso = 1, login='Gustas'
 where  id_usuario = 7;
+update Usuarios
 set senha = '448768',nivel_de_acesso = 1, login='Kakas'
 where  id_usuario = 8;
+update Usuarios
 set senha = '48765',nivel_de_acesso = 1, login='Charlão'
 where  id_usuario = 9;
+update Usuarios
 set senha = '4165',nivel_de_acesso = 1, login='Clóvis'
 where  id_usuario = 10;
 
@@ -628,72 +637,81 @@ update Consumo
 set nome_servico='bugy', preco_servico=250.99
 where id_servicos=20;
 
-<<<<<<< HEAD
+
 /*Update Quartos*/
 
 update Quartos
-set max_pessoas = 1 , manutencao = 0 , tipo_cama = 'Solteiro', frigobar = 0 , ar_condicionado = 1 , banheira = 0 , tv = 0 , preco_quarto_dia = 925,50
+set max_pessoas = 1 , manutencao = 0 , tipo_cama = 'Solteiro', frigobar = 0 , ar_condicionado = 1 , banheira = 0 , tv = 0 , preco_quarto_dia = 925.50
 where id_Quartos = 1;
 
 update Quartos
-set max_pessoas = 2 , manutencao = 1 , tipo_cama = 'Solteiro', frigobar = 1 , ar_condicionado = 0 , banheira = 1 , tv = 1 , preco_quarto_dia = 350,00
+set max_pessoas = 2 , manutencao = 1 , tipo_cama = 'Solteiro', frigobar = 1 , ar_condicionado = 0 , banheira = 1 , tv = 1 , preco_quarto_dia = 350.00
 where id_Quartos = 2;
 
 update Quartos
-set max_pessoas = 3 , manutencao = 0 , tipo_cama = 'Casal', frigobar = 0 , ar_condicionado = 1 , banheira = 1 , tv = 1 , preco_quarto_dia = 700,00
+set max_pessoas = 3 , manutencao = 0 , tipo_cama = 'Casal', frigobar = 0 , ar_condicionado = 1 , banheira = 1 , tv = 1 , preco_quarto_dia = 700.00
 where id_Quartos = 3;
 
 update Quartos
-set max_pessoas = 4 , manutencao = 1 , tipo_cama = 'Solteiro', frigobar = 1 , ar_condicionado = 1 , banheira = 1 , tv = 1 , preco_quarto_dia = 1500,50
+set max_pessoas = 4 , manutencao = 1 , tipo_cama = 'Solteiro', frigobar = 1 , ar_condicionado = 1 , banheira = 1 , tv = 1 , preco_quarto_dia = 1500.50
 where id_Quartos = 4;
 
 update Quartos
-set max_pessoas = 2 , manutencao = 0 , tipo_cama = 'Casal', frigobar = 1 , ar_condicionado = 1 , banheira = 0 , tv = 1 , preco_quarto_dia = 550,00
+set max_pessoas = 2 , manutencao = 0 , tipo_cama = 'Casal', frigobar = 1 , ar_condicionado = 1 , banheira = 0 , tv = 1 , preco_quarto_dia = 550.00
 where id_Quartos = 5;
 
 update Quartos
-set max_pessoas = 4 , manutencao = 1 , tipo_cama = 'Solteiro', frigobar = 0 , ar_condicionado = 1 , banheira = 0 , tv = 0 , preco_quarto_dia = 550,00
+set max_pessoas = 4 , manutencao = 1 , tipo_cama = 'Solteiro', frigobar = 0 , ar_condicionado = 1 , banheira = 0 , tv = 0 , preco_quarto_dia = 550.00
 where id_Quartos = 6;
 
 update Quartos
-set max_pessoas = 1 , manutencao = 0 , tipo_cama = 'Solteiro', frigobar = 1 , ar_condicionado = 1 , banheira = 1 , tv = 1 , preco_quarto_dia = 950,00
+set max_pessoas = 1 , manutencao = 0 , tipo_cama = 'Solteiro', frigobar = 1 , ar_condicionado = 1 , banheira = 1 , tv = 1 , preco_quarto_dia = 950.00
 where id_Quartos = 7;
 
 update Quartos
-set max_pessoas = 2 , manutencao = 0 , tipo_cama = 'Casal', frigobar = 1 , ar_condicionado = 1 , banheira = 1 , tv = 1 , preco_quarto_dia = 1000,00
+set max_pessoas = 2 , manutencao = 0 , tipo_cama = 'Casal', frigobar = 1 , ar_condicionado = 1 , banheira = 1 , tv = 1 , preco_quarto_dia = 1000.00
 where id_Quartos = 8;
 
 update Quartos
-set max_pessoas = 4 , manutencao = 1 , tipo_cama = 'Casal', frigobar = 0 , ar_condicionado = 1 , banheira = 0 , tv = 0 , preco_quarto_dia = 350,00
+set max_pessoas = 4 , manutencao = 1 , tipo_cama = 'Casal', frigobar = 0 , ar_condicionado = 1 , banheira = 0 , tv = 0 , preco_quarto_dia = 350.00
 where id_Quartos = 9;
 
 update Quartos
-set max_pessoas = 1 , manutencao = 0 , tipo_cama = 'Solteiro', frigobar = 1 , ar_condicionado = 1 , banheira = 1 , tv = 0 , preco_quarto_dia = 450,00
+set max_pessoas = 1 , manutencao = 0 , tipo_cama = 'Solteiro', frigobar = 1 , ar_condicionado = 1 , banheira = 1 , tv = 0 , preco_quarto_dia = 450.00
 where id_Quartos = 10;
 
 
 
-=======
+
 /*Update Servicos_CONSUMIDOS*/
 update `SERVICOS_CONSUMIDOS`
 set id_hospede= 1,id_servico = 1, id_hospedagens=1
 where  id_servico_consumidos= 1;
+update `SERVICOS_CONSUMIDOS`
 set id_hospede= 2,id_servico = 2, id_hospedagens=2
 where  id_servico_consumidos= 2;
+update `SERVICOS_CONSUMIDOS`
 set id_hospede= 3,id_servico = 3, id_hospedagens=3
 where  id_servico_consumidos= 3;
+update `SERVICOS_CONSUMIDOS`
 set id_hospede= 4,id_servico = 4, id_hospedagens=4
 where  id_servico_consumidos= 4;
+update `SERVICOS_CONSUMIDOS`
 set id_hospede= 5,id_servico = 5, id_hospedagens=5
 where  id_servico_consumidos= 5;
+update `SERVICOS_CONSUMIDOS`
 set id_hospede= 6,id_servico = 6, id_hospedagens=6
 where  id_servico_consumidos= 6;
+update `SERVICOS_CONSUMIDOS`
 set id_hospede= 7,id_servico = 7, id_hospedagens=7
 where  id_servico_consumidos= 7;
+update `SERVICOS_CONSUMIDOS`
 set id_hospede= 8,id_servico = 8, id_hospedagens=8
 where  id_servico_consumidos= 8;
+update `SERVICOS_CONSUMIDOS`
 set id_hospede= 9,id_servico = 9, id_hospedagens=9
 where  id_servico_consumidos= 9;
+update `SERVICOS_CONSUMIDOS`
 set id_hospede= 10,id_servico = 10, id_hospedagens=10
 where  id_servico_consumidos= 10;
 
@@ -831,7 +849,7 @@ where id_hospede_atividade=9;
 update Atividades_hospedes
 set  Hospede_id=10, id_atividade=10
 where id_hospede_atividade=10;
->>>>>>> main
+
 
 /*update Hospede*/
 
@@ -953,4 +971,4 @@ DELETE FROM Funcionarios Where funcionario_id = 1;
 DELETE FROM Funcionarios Where funcionario_id = 2;
 DELETE FROM Funcionarios Where funcionario_id = 3;
 DELETE FROM Funcionarios Where funcionario_id = 4;
-DELETE FROM Funcionarios Where funcionario_id = 5;111
+DELETE FROM Funcionarios Where funcionario_id = 5;
