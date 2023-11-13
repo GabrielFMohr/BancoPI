@@ -309,26 +309,26 @@ insert into Quartos (max_pessoas, manutencao, tipo_cama, frigobar, ar_condiciona
 
 /*Tabela hospedagens*/
 
-insert into Hospedagens (checkin, checkout) values ('2023-01-28', '2023-10-29');
-insert into Hospedagens (checkin, checkout) values ('2022-11-29', '2023-05-27');
-insert into Hospedagens (checkin, checkout) values ('2023-08-08', '2023-06-28');
-insert into Hospedagens (checkin, checkout) values ('2022-06-04', '2023-04-23');
-insert into Hospedagens (checkin, checkout) values ('2023-06-30', '2023-11-18');
-insert into Hospedagens (checkin, checkout) values ('2022-06-11', '2023-01-06');
-insert into Hospedagens (checkin, checkout) values ('2023-06-21', '2023-08-04');
-insert into Hospedagens (checkin, checkout) values ('2023-04-30', '2023-09-11');
-insert into Hospedagens (checkin, checkout) values ('2022-08-06', '2023-08-28');
-insert into Hospedagens (checkin, checkout) values ('2023-03-10', '2023-06-29');
-insert into Hospedagens (checkin, checkout) values ('2022-02-24', '2023-05-10');
-insert into Hospedagens (checkin, checkout) values ('2023-01-08', '2023-06-21');
-insert into Hospedagens (checkin, checkout) values ('2022-12-23', '2022-12-28');
-insert into Hospedagens (checkin, checkout) values ('2023-05-07', '2023-07-09');
-insert into Hospedagens (checkin, checkout) values ('2023-02-28', '2022-12-24');
-insert into Hospedagens (checkin, checkout) values ('2022-09-15', '2023-01-22');
-insert into Hospedagens (checkin, checkout) values ('2022-12-14', '2023-06-10');
-insert into Hospedagens (checkin, checkout) values ('2022-03-06', '2023-03-24');
-insert into Hospedagens (checkin, checkout) values ('2022-05-31', '2023-05-11');
-insert into Hospedagens (checkin, checkout) values ('2022-02-07', '2023-05-30');
+insert into Hospedagens (checkin, checkout, Hopede_id) values ('2023-01-28', '2023-10-29', 1);
+insert into Hospedagens (checkin, checkout, Hopede_id) values ('2022-11-29', '2023-05-27', 2);
+insert into Hospedagens (checkin, checkout, Hopede_id) values ('2023-08-08', '2023-06-28', 3);
+insert into Hospedagens (checkin, checkout, Hopede_id) values ('2022-06-04', '2023-04-23', 4);
+insert into Hospedagens (checkin, checkout, Hopede_id) values ('2023-06-30', '2023-11-18', 5);
+insert into Hospedagens (checkin, checkout, Hopede_id) values ('2022-06-11', '2023-01-06', 6);
+insert into Hospedagens (checkin, checkout, Hopede_id) values ('2023-06-21', '2023-08-04', 7);
+insert into Hospedagens (checkin, checkout, Hopede_id) values ('2023-04-30', '2023-09-11', 8);
+insert into Hospedagens (checkin, checkout, Hopede_id) values ('2022-08-06', '2023-08-28', 9);
+insert into Hospedagens (checkin, checkout, Hopede_id) values ('2023-03-10', '2023-06-29', 10);
+insert into Hospedagens (checkin, checkout, Hopede_id) values ('2022-02-24', '2023-05-10', 11);
+insert into Hospedagens (checkin, checkout, Hopede_id) values ('2023-01-08', '2023-06-21', 12);
+insert into Hospedagens (checkin, checkout, Hopede_id) values ('2022-12-23', '2022-12-28', 13);
+insert into Hospedagens (checkin, checkout, Hopede_id) values ('2023-05-07', '2023-07-09', 14);
+insert into Hospedagens (checkin, checkout, Hopede_id) values ('2023-02-28', '2022-12-24', 15);
+insert into Hospedagens (checkin, checkout, Hopede_id) values ('2022-09-15', '2023-01-22', 16);
+insert into Hospedagens (checkin, checkout, Hopede_id) values ('2022-12-14', '2023-06-10', 17);
+insert into Hospedagens (checkin, checkout, Hopede_id) values ('2022-03-06', '2023-03-24', 18);
+insert into Hospedagens (checkin, checkout, Hopede_id) values ('2022-05-31', '2023-05-11', 19);
+insert into Hospedagens (checkin, checkout, Hopede_id) values ('2022-02-07', '2023-05-30', 20);
 
 /*Tabela Atividades */
 
