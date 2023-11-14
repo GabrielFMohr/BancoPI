@@ -977,11 +977,11 @@ DELETE FROM Quartos Where id_Quartos = 5;
 
 /* Delete Atividades_hospede */
 
-DELETE FROM Atividade_hospede Where id_hospede_atividade = 1;
-DELETE FROM Atividade_hospede Where id_hospede_atividade = 2;
-DELETE FROM Atividade_hospede Where id_hospede_atividade = 3;
-DELETE FROM Atividade_hospede Where id_hospede_atividade = 4;
-DELETE FROM Atividade_hospede Where id_hospede_atividade = 5;
+DELETE FROM Atividades_hospede Where id_hospede_atividade = 1;
+DELETE FROM Atividades_hospede Where id_hospede_atividade = 2;
+DELETE FROM Atividades_hospede Where id_hospede_atividade = 3;
+DELETE FROM Atividades_hospede Where id_hospede_atividade = 4;
+DELETE FROM Atividades_hospede Where id_hospede_atividade = 5;
 
 /* Delete Hospedagens_quartos */
 
