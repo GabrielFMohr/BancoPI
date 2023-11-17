@@ -624,50 +624,6 @@ set senha = '4165',nivel_de_acesso = 1, login='Clóvis'
 where  id_usuario = 10;
 
 
-
-/*Update Consumo*/
-
-update Consumo
-set nome_servico='aula de boxe',  preco_servico=250.00
-where id_servicos=1;
-
-update Consumo
-set nome_servico ='aula de vôlei', preco_servico=230.00
-where id_servicos=11;
-
-update Consumo
-set nome_servico= 'aula de capoeira', preco_servico=157.09
-where id_servicos=7;
-
-update Consumo
-set nome_servico='aula de futebol', preco_servico=243.11
-where id_servicos=12;
-
-update Consumo
-set nome_servico='pôker', preco_servico=143.33
-where id_servicos=18;
-
-update Consumo
-set nome_servico='aula de karatê', preco_servico=111.11
-where id_servicos=5;
-
-update Consumo
-set nome_servico='aula de kickbox', preco_servico=250.99
-where id_servicos=9;
-
-update Consumo
-set nome_servico='piscina', preco_servico=250.00
-where id_servicos=7;
-
-update Consumo
-set nome_servico='sauna', preco_servico=132.00
-where id_servicos=19;
-
-update Consumo
-set nome_servico='bugy', preco_servico=250.99
-where id_servicos=20;
-
-
 /*Update Quartos*/
 
 update Quartos
