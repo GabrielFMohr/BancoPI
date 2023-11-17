@@ -745,52 +745,52 @@ where id_atividade=20;
 /*update Hospedagen_quartos*/
 
 update Hospedagens_quartos
-set id_quartos=1, Hospedagens_id=1, Hospede_id=1
+set id_quartos=1, Hospedagens_id=1, id_Hospede=1
 where id_Hospedagem_quartos=1;
 
 
 update Hospedagens_quartos
-set id_quartos=2, Hospedagens_id=2, Hospede_id=2
+set id_quartos=2, Hospedagens_id=2, id_Hospede=2
 where id_Hospedagem_quartos=2;
 
 
 update Hospedagens_quartos
-set id_quartos=3, Hospedagens_id=3, Hospede_id=3
+set id_quartos=3, Hospedagens_id=3, id_Hospede=3
 where id_Hospedagem_quartos=3;
 
 
 update Hospedagens_quartos
-set id_quartos=4, Hospedagens_id=4, Hospede_id=4
+set id_quartos=4, Hospedagens_id=4, id_Hospede=4
 where id_Hospedagem_quartos=4;
 
 
 update Hospedagens_quartos
-set id_quartos=5, Hospedagens_id=5, Hospede_id=5
+set id_quartos=5, Hospedagens_id=5, id_Hospede=5
 where id_Hospedagem_quartos=5;
 
 
 update Hospedagens_quartos
-set id_quartos=6, Hospedagens_id=6, Hospede_id=6
+set id_quartos=6, Hospedagens_id=6, id_Hospede=6
 where id_Hospedagem_quartos=6;
 
 
 update Hospedagens_quartos
-set id_quartos=7, Hospedagens_id=7, Hospede_id=7
+set id_quartos=7, Hospedagens_id=7, id_Hospede=7
 where id_Hospedagem_quartos=7;
 
 
 update Hospedagens_quartos
-set id_quartos=8, Hospedagens_id=8, Hospede_id=8
+set id_quartos=8, Hospedagens_id=8, id_Hospede=8
 where id_Hospedagem_quartos=8;
 
 
 update Hospedagens_quartos
-set id_quartos=9, Hospedagens_id=9, Hospede_id=9
+set id_quartos=9, Hospedagens_id=9, id_Hospede=9
 where id_Hospedagem_quartos=9;
 
 
 update Hospedagens_quartos
-set id_quartos=1, Hospedagens_id=10, Hospede_id=10
+set id_quartos=1, Hospedagens_id=10, id_Hospede=10
 where id_Hospedagem_quartos=10;
 
 /*update Atividades_hospede*/
