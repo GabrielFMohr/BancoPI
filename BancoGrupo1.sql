@@ -527,41 +527,37 @@ update Funcionarios
 set nome = 'Maria', sobrenome = 'Eliza', funcao = 'Recepcionista', salario = 6200.23
 where funcionario_id=10;
 
-
-
-
-
 /*Update Servicos*/
 update Servicos
-set preco_servicos= 250.00, nome_servicos='aula de boxe'
-where id_servico=1;
+set preco_servico= 250.00, nome_servico='aula de boxe'
+where id_servicos=1;
 update Servicos
-set preco_servicos= 10.00, nome_servicos='prato do dia'
-where id_servico=11;
+set preco_servico= 10.00, nome_servico='prato do dia'
+where id_servicos=11;
 update Servicos
-set preco_servicos= 157.09, nome_servicos='aula de capoeira'
-where id_servico=7;
+set preco_servico= 157.09, nome_servico='aula de capoeira'
+where id_servicos=7;
 update Servicos
-set preco_servicos= 243.11, nome_servicos='aula de futebol'
-where id_servico=12;
+set preco_servico= 243.11, nome_servico='aula de futebol'
+where id_servicos=12;
 update Servicos
-set preco_servicos= 143.33, nome_servicos='pôker'
-where id_servico=18;
+set preco_servico= 143.33, nome_servico='pôker'
+where id_servicos=18;
 update Servicos
-set preco_servicos= 111.11, nome_servicos='aula de karatê'
-where id_servico=5;
+set preco_servico= 111.11, nome_servico='aula de karatê'
+where id_servicos=5;
 update Servicos
-set preco_servicos= 250.00, nome_servicos='aula de kickbox'
-where id_servico=9;
+set preco_servico= 250.00, nome_servico='aula de kickbox'
+where id_servicos=9;
 update Servicos
-set preco_servicos= 250.00, nome_servicos='piscina'
-where id_servico=7;
+set preco_servico= 250.00, nome_servico='piscina'
+where id_servicos=7;
 update Servicos
-set preco_servicos= 132.00, nome_servicos='sauna'
-where id_servico=19;
+set preco_servico= 132.00, nome_servico='sauna'
+where id_servicos=19;
 update Servicos
-set preco_servicos= 250.00, nome_servicos='bugy'
-where id_servico=20;
+set preco_servico= 250.00, nome_servico='bugy'
+where id_servicos=20;
 
 /*Update Hospedagens*/
 update Hospedagens
