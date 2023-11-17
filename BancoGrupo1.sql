@@ -403,7 +403,7 @@ values (1,1),
 
 /*Tabela serviços consumidos*/
 
-insert into servicos_consumidos (id_hospede, id_servico, id_hospedagens)
+insert into servicos_consumidos (id_hospede, id_serviço, id_hospedagens)
 values(1,1,1),
 (2,2,2),
 (3,3,3),
