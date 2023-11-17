@@ -495,38 +495,40 @@ SELECT * FROM servicos_consumidos INNER JOIN Hospedes ON servicos_consumidos.id_
 
 
 
-
 /*Update funcionarios*/
 update Funcionarios
 set nome = 'Miguel', sobrenome = 'Almeida', funcao = 'Zelador', salario = 9016.38
-where id_atividade=1;
+where funcionario_id=1;
 update Funcionarios
 set nome = 'Junior', sobrenome = 'Silva', funcao = 'Camareiro', salario = 9526.14
-where id_atividade=2;
+where funcionario_id=2;
 update Funcionarios
 set nome = 'Marcos', sobrenome = 'Silva', funcao = 'Recepcionista', salario = 5890.71
-where id_atividade=3;
+where funcionario_id=3;
 update Funcionarios
 set nome = 'Romario', sobrenome = 'Mendes', funcao = 'Recepcionista', salario = 5890.71
-where id_atividade=4;
+where funcionario_id=4;
 update Funcionarios
 set nome = 'Lucas', sobrenome = 'Oliveira', funcao = 'Diarista', salario = 6212.93
-where id_atividade=5;
+where funcionario_id=5;
 update Funcionarios
 set nome = 'Sabrina', sobrenome = 'Lima', funcao = 'Secretaria', salario = 6232.93
-where id_atividade=6;
+where funcionario_id=6;
 update Funcionarios
 set nome = 'Ana', sobrenome = 'Amaral', funcao = 'Gerente', salario = 9734.61
-where id_atividade=7;
+where funcionario_id=7;
 update Funcionarios
 set nome = 'Rosalia', sobrenome = 'Helena', funcao = 'Jardineira', salario = 3400.61
-where id_atividade=8;
+where funcionario_id=8;
 update Funcionarios
 set nome = 'lucio', sobrenome = 'Carvalho', funcao = 'Faxineiro', salario = 4500.43
-where id_atividade=9;
+where funcionario_id=9;
 update Funcionarios
 set nome = 'Maria', sobrenome = 'Eliza', funcao = 'Recepcionista', salario = 6200.23
-where id_atividade=10;
+where funcionario_id=10;
+
+
+
 
 
 /*Update Servicos*/
