@@ -475,6 +475,8 @@ select * from Hospedagens;
 select * from Hospedagens_quartos;
 select * from Quartos;
 
+
+
 /*Select Join*/
 
 SELECT * FROM Funcionarios INNER JOIN Usuarios ON Funcionarios.id_usuario = Usuarios.id_usuario;
@@ -487,9 +489,12 @@ SELECT * FROM Atividades_hospede INNER JOIN Hospedes ON Atividades_hospede.Hospe
 
 SELECT * FROM Hospedagens INNER JOIN Hospedes ON Hospedagens.Hospedagens_id = Hospedes.Hospede_id;
 
-SELECT * FROM Hospedagens_quartos INNER JOIN Quartos ON Hospedagens_quartos.id_Quartos = Quartos.id_Quartos INNER JOIN Hospedagens ON Hospedagens_quartos.Hospedagens_id = Hospedagens.Hospedagens_id INNER JOIN Hospedes ON Hospedagem_quartos.Hospede_id = Hospede_id;
+SELECT * FROM Hospedagens_quartos INNER JOIN Quartos ON Hospedagens_quartos.id_Quartos = Quartos.id_Quartos INNER JOIN Hospedagens ON Hospedagens_quartos.Hospedagens_id = Hospedagens.Hospedagens_id INNER JOIN Hospedes ON Hospedagens_quartos.Hospedagens_id = Hospede_id;
 
-SELECT * FROM servicos_consumidos INNER JOIN Hospede ON servicos_consumidos.id_hospede = Hospede.id_hospede INNER JOIN sevicos ON servicos_consumidos.id_servicos = servicos.id_servicos INNER JOIN Hospedagens ON servicos_consumidos.id_hospedagens = Hospedagens.id_hospedagens;
+SELECT * FROM servicos_consumidos INNER JOIN Hospedes ON servicos_consumidos.id_hospede = Hospedes.hospede_id INNER JOIN servicos ON servicos_consumidos.id_serviço = servicos.id_servicos INNER JOIN Hospedagens ON servicos_consumidos.id_hospedagens = Hospedagens.Hospedagens_id;
+
+
+
 
 /*Update funcionarios*/
 update Funcionarios
