@@ -378,7 +378,7 @@ insert into Servicos (preco_servico, nome_servico) values (275.8, 'Aula de danç
 
 /*Tabela Atividades_hospede*/
 
-insert into Atividades_hospede(Hospede_id, id_usuario)
+insert into Atividades_hospede(Hospede_id, id_atividade)
 values (1,1),
 (2,2),
 (3,3),
@@ -399,6 +399,7 @@ values (1,1),
 (18,18),
 (19,19),
 (20,20);
+
 
 /*Tabela serviços consumidos*/
 
