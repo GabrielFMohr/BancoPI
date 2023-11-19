@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS `HOSPEDES`(
   `id_usuario` INT NOT NULL,
   PRIMARY KEY (`Hospede_id`, `id_usuario`),
  
-  CONSTRAINT `fk_Hospedes_Usuários1`
+  CONSTRAINT `fk_Hospedes_Usuarios1`
     FOREIGN KEY (`id_usuario`)
     REFERENCES `mydb`.`Usuarios`(`id_usuario`)
     )
@@ -880,80 +880,80 @@ where  Hospede_id = 10;
 
 /* Delete usuarios*/
 
-DELETE FROM Usuarios WHERE id_usuario = 1;
-DELETE FROM Usuarios WHERE id_usuario = 2;
-DELETE FROM Usuarios WHERE id_usuario = 3;
-DELETE FROM Usuarios WHERE id_usuario = 4;
-DELETE FROM Usuarios WHERE id_usuario = 5;
+DELETE FROM Usuarios WHERE id_usuario = 100;
+DELETE FROM Usuarios WHERE id_usuario = 200;
+DELETE FROM Usuarios WHERE id_usuario = 300;
+DELETE FROM Usuarios WHERE id_usuario = 400;
+DELETE FROM Usuarios WHERE id_usuario = 500;
 
 /* Delete Hospedes*/
 
-DELETE FROM Hospedes WHERE Hospede_id = 1;
-DELETE FROM Hospedes WHERE Hospede_id = 2;
-DELETE FROM Hospedes WHERE Hospede_id = 3;
-DELETE FROM Hospedes WHERE Hospede_id = 4;
-DELETE FROM Hospedes WHERE Hospede_id = 5;
+DELETE FROM Hospedes WHERE Hospede_id = 100;
+DELETE FROM Hospedes WHERE Hospede_id = 200;
+DELETE FROM Hospedes WHERE Hospede_id = 300;
+DELETE FROM Hospedes WHERE Hospede_id = 400;
+DELETE FROM Hospedes WHERE Hospede_id = 500;
 
 /* Delete Atividades*/
 
-DELETE FROM Atividades Where id_atividade = 1;
-DELETE FROM Atividades Where id_atividade = 2;
-DELETE FROM Atividades Where id_atividade = 3;
-DELETE FROM Atividades Where id_atividade = 4;
-DELETE FROM Atividades Where id_atividade = 5;
+DELETE FROM Atividades Where id_atividade = 100;
+DELETE FROM Atividades Where id_atividade = 200;
+DELETE FROM Atividades Where id_atividade = 300;
+DELETE FROM Atividades Where id_atividade = 400;
+DELETE FROM Atividades Where id_atividade = 500;
 
 /* Delete Hospedagens*/
 
-DELETE FROM Hospedagens Where Hospedagens_id = 1;
-DELETE FROM Hospedagens Where Hospedagens_id = 2;
-DELETE FROM Hospedagens Where Hospedagens_id = 3;
-DELETE FROM Hospedagens Where Hospedagens_id = 4;
-DELETE FROM Hospedagens Where Hospedagens_id = 5;
+DELETE FROM Hospedagens Where Hospedagens_id = 100;
+DELETE FROM Hospedagens Where Hospedagens_id = 200;
+DELETE FROM Hospedagens Where Hospedagens_id = 300;
+DELETE FROM Hospedagens Where Hospedagens_id = 400;
+DELETE FROM Hospedagens Where Hospedagens_id = 500;
 
 /* Delete Servicos*/
 
-DELETE FROM servicos Where id_servicos = 1;
-DELETE FROM servicos Where id_servicos = 2;
-DELETE FROM servicos Where id_servicos = 3;
-DELETE FROM servicos Where id_servicos = 4;
-DELETE FROM servicos Where id_servicos = 5;
+DELETE FROM servicos Where id_servicos = 100;
+DELETE FROM servicos Where id_servicos = 200;
+DELETE FROM servicos Where id_servicos = 300;
+DELETE FROM servicos Where id_servicos = 400;
+DELETE FROM servicos Where id_servicos = 500;
 
 /* Delete Servicos_consumidos*/
 
-DELETE FROM servicos_consumidos Where id_servicos_consumidos = 1;
-DELETE FROM servicos_consumidos Where id_servicos_consumidos = 2;
-DELETE FROM servicos_consumidos Where id_servicos_consumidos = 3;
-DELETE FROM servicos_consumidos Where id_servicos_consumidos = 4;
-DELETE FROM servicos_consumidos Where id_servicos_consumidos = 5;
+DELETE FROM servicos_consumidos Where id_servicos_consumidos = 100;
+DELETE FROM servicos_consumidos Where id_servicos_consumidos = 200;
+DELETE FROM servicos_consumidos Where id_servicos_consumidos = 300;
+DELETE FROM servicos_consumidos Where id_servicos_consumidos = 400;
+DELETE FROM servicos_consumidos Where id_servicos_consumidos = 500;
 
 /* Delete Quartos */
 
-DELETE FROM Quartos Where id_Quartos = 1;
-DELETE FROM Quartos Where id_Quartos = 2;
-DELETE FROM Quartos Where id_Quartos = 3;
-DELETE FROM Quartos Where id_Quartos = 4;
-DELETE FROM Quartos Where id_Quartos = 5;
+DELETE FROM Quartos Where id_Quartos = 100;
+DELETE FROM Quartos Where id_Quartos = 200;
+DELETE FROM Quartos Where id_Quartos = 300;
+DELETE FROM Quartos Where id_Quartos = 400;
+DELETE FROM Quartos Where id_Quartos = 500;
 
 /* Delete Atividades_hospede */
 
-DELETE FROM Atividades_hospede Where id_hospede_atividade = 1;
-DELETE FROM Atividades_hospede Where id_hospede_atividade = 2;
-DELETE FROM Atividades_hospede Where id_hospede_atividade = 3;
-DELETE FROM Atividades_hospede Where id_hospede_atividade = 4;
-DELETE FROM Atividades_hospede Where id_hospede_atividade = 5;
+DELETE FROM Atividades_hospede Where id_hospede_atividade = 100;
+DELETE FROM Atividades_hospede Where id_hospede_atividade = 200;
+DELETE FROM Atividades_hospede Where id_hospede_atividade = 300;
+DELETE FROM Atividades_hospede Where id_hospede_atividade = 400;
+DELETE FROM Atividades_hospede Where id_hospede_atividade = 500;
 
 /* Delete Hospedagens_quartos */
 
-DELETE FROM Hospedagens_quartos Where id_Hospedagem_quartos = 1;
-DELETE FROM Hospedagens_quartos Where id_Hospedagem_quartos = 2;
-DELETE FROM Hospedagens_quartos Where id_Hospedagem_quartos = 3;
-DELETE FROM Hospedagens_quartos Where id_Hospedagem_quartos = 4;
-DELETE FROM Hospedagens_quartos Where id_Hospedagem_quartos = 5;
+DELETE FROM Hospedagens_quartos Where id_Hospedagem_quartos = 100;
+DELETE FROM Hospedagens_quartos Where id_Hospedagem_quartos = 200;
+DELETE FROM Hospedagens_quartos Where id_Hospedagem_quartos = 300;
+DELETE FROM Hospedagens_quartos Where id_Hospedagem_quartos = 400;
+DELETE FROM Hospedagens_quartos Where id_Hospedagem_quartos = 500;
 
 /* Delete Funcionarios */
 
-DELETE FROM Funcionarios Where funcionario_id = 1;
-DELETE FROM Funcionarios Where funcionario_id = 2;
-DELETE FROM Funcionarios Where funcionario_id = 3;
-DELETE FROM Funcionarios Where funcionario_id = 4;
-DELETE FROM Funcionarios Where funcionario_id = 5;
+DELETE FROM Funcionarios Where funcionario_id = 100;
+DELETE FROM Funcionarios Where funcionario_id = 200;
+DELETE FROM Funcionarios Where funcionario_id = 300;
+DELETE FROM Funcionarios Where funcionario_id = 400;
+DELETE FROM Funcionarios Where funcionario_id = 500;
